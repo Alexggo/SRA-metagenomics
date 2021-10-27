@@ -21,9 +21,9 @@ conda activate bioinformatics
 
 less ch4-c_auris/data/bird_metagenome/SRR_Acc_List.txt |head -n 5| while read line
 do 
-	fastq-dump --split-files $line && mv $line_1.fastq SRR
+	fastq-dump --split-files $line && mv *.fastq ../Databases/SRR
 	# Map sequences to the DB with kma
-	#kma -i $line_1.fasta -t_db $CCM_DB -t 24 -mem_mode -and -o $line_1_kma_out
+	kma -i ../Databases/SRR/$line_1.fastq -t_db ../Databases/compress_ncbi_nt/ncbi_nt -t 1 -mem_mode -and -o ../Databases/SRR/$line_kma_out
 	# Run CCMetagen
 	#CCMetagen.py -i SRR2568530_1_kma_out.res -o SRR2568530_results
 done
