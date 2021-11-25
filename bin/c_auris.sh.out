@@ -1,0 +1,12 @@
+Starting script
+23:29:46
+33439 Projects/ch4-c_auris/data/SraAccList_aves_single.txt
+fastq-dump --split-files SRR14562934 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1000-1000
+Read 61255 spots for SRR14562934
+Written 61255 spots for SRR14562934
+Files downloaded
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1000-1000/SRR14562934_1.fastq
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1000-1000/SRR14562934_1.fastq
+# Phred scale:	33
+# Collecting k-mer scores.
+Error: 12 (Cannot allocate memory)
