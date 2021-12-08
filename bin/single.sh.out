@@ -1,0 +1,176 @@
+Starting script
+14:45:58
+3 /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/data/SraAccList_shortbird_single.txt
+
+Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874102_1.fastq.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874103_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-5/SRR16874103_1.fastq.res
+fastq-dump --split-files SRR15351113 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3
+fastq-dump --split-files SRR15351114\	 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3
+fastq-dump --split-files SRR15351115 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3
+2021-12-08T19:45:58 fastq-dump.2.8.0 err: item not found while constructing within virtual database module - the path 'SRR15351114	' cannot be opened as database or table
+Read 94 spots for SRR15351113
+Written 94 spots for SRR15351113
+Read 162 spots for SRR15351115
+Written 162 spots for SRR15351115
+Files downloaded
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351113_1.fastq
+# Phred scale:	0
+
+Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874103_1.fastq.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874104_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-5/SRR16874104_1.fastq.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874104_1.fastq.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874105_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-5/SRR16874105_1.fastq.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874105_1.fastq.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen_merge.py", line 134, in <module>
+    tax_cols = all_samples[tax_cols_l]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1374, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Superkingdom', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family',\n       'Genus', 'Species'],\n      dtype='object')] are in the [columns]"
+Finishing script
+14:46:01
+Error: 12 (Cannot allocate memory)
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351115_1.fastq
+# Phred scale:	0
+Error: 12 (Cannot allocate memory)
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351113_1.fastq.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113_1.fastq.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351115_1.fastq.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115_1.fastq.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen_merge.py", line 134, in <module>
+    tax_cols = all_samples[tax_cols_l]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1374, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Superkingdom', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family',\n       'Genus', 'Species'],\n      dtype='object')] are in the [columns]"
+Finishing script
+14:46:47
