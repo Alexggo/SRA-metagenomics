@@ -34,7 +34,7 @@ Table_dir=/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/03_Out
 output_table=SRAtab_${taxa}_${seq}_${from}-${to}
 subdir_name="SRA_${taxa}_${seq}_${from}-${to}"
 
-### SCRIPT FOR PAIRED SAMPLES
+### ANALYSIS
 echo "Starting script"
 date +"%T"
 wc -l $accession_list
@@ -71,30 +71,32 @@ echo "Files downloaded"
 
 find $scratch_dir/$subdir_name -type f -name "*.fastq" | while read r
 do
+	echo "The file is" $r
 	if [[ "$r" == *"_1.fastq"* ]];then
 		echo "File ends in _1.fastq"
-  		r1=r
+  		r1=$r
   		r2=${r1/_1.fastq/_2.fastq}
-  		if [ -f "$r2" ];then
+  		if [[ -f "$r2" ]];then
   			echo $r2
     		echo "There is a _2. Doing paired"
     		r1=${r2/_2.fastq/_1.fastq}
-			o=$KMA_dir/${r1/$scratch_dir\//''}
-			echo $o
-			kma -ipe $r1 $r2 -o $o -t_db $nt_db -t $threads -1t1 -mem_mode -and -apm f
-			#rm $r2
-			#rm $r1
+    		kma -ipe $r1 $r2 -o $o -t_db $nt_db -t $threads -1t1 -mem_mode -and -apm f
+			rm $r2
+			rm $r1
   		else
   			echo $r1
     		echo "There is not a _2. Doing single"
-    		o=$KMA_dir/${r/$scratch_dir\//''}
+    		o=$KMA_dir/${r1/$scratch_dir\//''}
+			echo $o
+			o=$KMA_dir/${r/$scratch_dir\//''}
 			echo $o
 			kma -i $r -o $o -t_db $nt_db -t $threads -1t1 -mem_mode -and
-			#rm $r1
+			rm $r1
 		fi
   	else
+  		echo "It doesn't end in _1.fastq"
   		if [[ "$r" == *"_2.fastq"* ]];then
-  			r2=r
+  			r2=$r
   			echo $r2
   			echo "File ends in _2. Doing nothing."
   		else
@@ -103,7 +105,7 @@ do
   			o=$KMA_dir/${r/$scratch_dir\//''}
 			echo $o
 			kma -i $r -o $o -t_db $nt_db -t $threads -1t1 -mem_mode -and
-			#rm $r
+			rm $r
 		fi
 	fi
 done
@@ -117,8 +119,8 @@ rmdir ${scratch_dir}/${subdir_name}
 rm /gpfs/scratch/agilgomez/temp/${subdir_name} -rf
 rmdir /gpfs/scratch/agilgomez/temp/${subdir_name}
 
-#Some files have 0MB. Remove this from analysis.
-find ${KMA_dir}/${subdir_name} -size  0 -print -delete
+#Some files have 0MB. Remove empty .res files from analysis.
+find ${KMA_dir}/${subdir_name}/*.res -size  0 -print -delete
 
 for f in ${KMA_dir}/${subdir_name}/*.res; do 
 	echo $f
