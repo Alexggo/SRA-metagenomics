@@ -1,176 +1,667 @@
 Starting script
-14:45:58
-3 /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/data/SraAccList_shortbird_single.txt
+15:26:16
+1829218 /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/data/SraAccList_mammals_single.txt
+rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_mammals_single_1-3’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_mammals_single_1-3’: No such file or directory
+Starting script
+15:26:19
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_mammals_single_1-3’: No such file or directory
+3477488 /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/data/SraAccList_mammals_paired.txt
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammals_single_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_mammals_single_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/temp/SRA_mammals_single_1-3’: No such file or directory
+rm: mkdir: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_aves_paired_1-3’: No such file or directory
+cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_aves_paired_1-3’: Is a directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_paired_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_paired_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_aves_paired_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/temp/SRA_aves_paired_1-3’: Directory not empty
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+rm: rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_mammals_paired_1-3’: No such file or directory
+cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_shortbird_paired_1-3’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_mammals_paired_1-3’: No such file or directory
+rm: rmdir: mkdir: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_shortbird_paired_1-3’SRR16979234
+failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_mammals_paired_1-3’cannot create directory ‘/gpfs/scratch/agilgomez/temp/SRA_aves_paired_1-3’: Is a directory: No such file or directory: File exists
 
-Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874102_1.fastq.res
 
-Traceback (most recent call last):
-  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
-    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-    self._engine = self._make_engine(self.engine)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
-    self._reader = parsers.TextReader(self.handles.handle, **kwds)
-  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874103_1.fastq.res
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-5/SRR16874103_1.fastq.res
-fastq-dump --split-files SRR15351113 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3
-fastq-dump --split-files SRR15351114\	 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3
-fastq-dump --split-files SRR15351115 --outdir /gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3
-2021-12-08T19:45:58 fastq-dump.2.8.0 err: item not found while constructing within virtual database module - the path 'SRR15351114	' cannot be opened as database or table
-Read 94 spots for SRR15351113
-Written 94 spots for SRR15351113
-Read 162 spots for SRR15351115
-Written 162 spots for SRR15351115
+rmdir: rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3’failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammals_paired_1-3’: No such file or directoryERR4999102
+: No such file or directory
+
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_mammals_paired_1-3’: No such file or directory
+rmdir: rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3’failed to remove ‘/gpfs/scratch/agilgomez/temp/SRA_mammals_paired_1-3’: No such file or directory
+: No such file or directorymkdir: 
+cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3’: No such file or directory
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+SRR17009152
+rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_austbirds_paired_1-11’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_austbirds_paired_1-11’: Is a directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_austbirds_paired_1-11’: No such file or directory
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_austbirds_paired_1-11’: No such file or directory
+SRR16874101
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_austbirds_paired_1-11’: No such file or directory
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+SRR7239362
+spots read      : 29,918
+reads read      : 29,918
+reads written   : 29,918
+SRR16874102
+spots read      : 161,700
+reads read      : 161,700
+reads written   : 161,700
+SRR16874103
+spots read      : 217,297
+reads read      : 217,297
+reads written   : 217,297
+total 223M
+-rw-rw-r-- 1 agilgomez agilgomez   36 Dec 14 15:26 filtered_list.txt
+-rw-rw-r-- 1 agilgomez agilgomez  23M Dec 14 15:26 SRR16874101.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 124M Dec 14 15:26 SRR16874102.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 167M Dec 14 15:26 SRR16874103.fastq
 Files downloaded
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113_1.fastq
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3/SRR16874103.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874103.fastq
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3/SRR16874103.fastq
+# Phred scale:	33
 # Collecting k-mer scores.
-# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351113_1.fastq
-# Phred scale:	0
+spots read      : 1,151,885
+reads read      : 2,303,770
+reads written   : 2,303,770
+SRR17009153
+spots read      : 843,800
+reads read      : 1,687,600
+reads written   : 1,687,600
+SRR17009154
+spots read      : 1,001,529
+reads read      : 2,003,058
+reads written   : 2,003,058
+total 1.3G
+-rw-rw-r-- 1 agilgomez agilgomez   36 Dec 14 15:26 filtered_list.txt
+-rw-rw-r-- 1 agilgomez agilgomez 253M Dec 14 15:26 SRR17009152_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 253M Dec 14 15:26 SRR17009152_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 185M Dec 14 15:26 SRR17009153_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 185M Dec 14 15:26 SRR17009153_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 220M Dec 14 15:27 SRR17009154_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 220M Dec 14 15:27 SRR17009154_1.fastq
+Files downloaded
+File ends in _1.fastq
+r
+There is not a _2. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammals_paired_1-3/SRR17009154_1.fastq
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_mammals_paired_1-3/SRR17009154_1.fastq
+# Phred scale:	33
+# Collecting k-mer scores.
+Error: 12 (Cannot allocate memory)
+#
+# Total time used for DB loading: 76.81 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.23 s.
+#
+# Doing local assemblies of found templates, and output results
+#
+# Total time used for DB loading: 84.37 s.
+#
+# Finding k-mer ankers
+spots read      : 21,922,115
+reads read      : 43,844,230
+reads written   : 43,844,230
+SRR7239363
+spots read      : 718,119
+reads read      : 718,119
+reads written   : 718,119
+ERR6212446
+spots read      : 21,191,321
+reads read      : 42,382,642
+reads written   : 42,382,642
+SRR7239364
+spots read      : 799,456
+reads read      : 799,456
+reads written   : 799,456
+ERR6212469
+spots read      : 22,336,985
+reads read      : 44,673,970
+reads written   : 44,673,970
+SRR7239365
+spots read      : 790,999
+reads read      : 790,999
+reads written   : 790,999
+total 52G
+-rw-rw-r-- 1 agilgomez agilgomez  33 Dec 14 15:26 filtered_list.txt
+-rw-rw-r-- 1 agilgomez agilgomez 14G Dec 14 15:32 ERR6212393.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 19G Dec 14 15:32 ERR6212446.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 19G Dec 14 15:33 ERR6212469.fastq
+Files downloaded
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3/ERR6212446.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212446.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3/ERR6212446.fastq
+# Phred scale:	33
+spots read      : 19,633,686
+reads read      : 39,267,372
+reads written   : 39,267,372
+SRR7239366
+Error: 12 (Cannot allocate memory)
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3/ERR6212469.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212469.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3/ERR6212469.fastq
+# Phred scale:	33
+spots read      : 20,945,917
+reads read      : 41,891,834
+reads written   : 41,891,834
+SRR7239367
+/var/spool/slurmd/job689543/slurm_script: line 109: 182477 Segmentation fault      (core dumped) kma -i $r -o $o -t_db $nt_db -t $threads -1t1 -mem_mode -and
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351113.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113.fastq
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351113.fastq
+# Phred scale:	33
+# Collecting k-mer scores.
+Error: 12 (Cannot allocate memory)
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3/ERR6212393.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212393.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3/ERR6212393.fastq
+# Phred scale:	33
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.66 s.
+#
+# Doing local assemblies of found templates, and output results
+Error: 12 (Cannot allocate memory)
+total 0
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.fsa
+KMA alignment done
+total 0
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212446.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:33 ERR6212469.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 0 Dec 14 15:34 ERR6212393.fastq.fsa
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_single_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/temp/SRA_aves_single_1-3’: No such file or directory
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212446.fastq.fsa
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212393.fastq.aln
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212469.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212393.fastq.fsa
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212446.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212393.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212469.fastq.fsa
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212469.fastq.frag.gz
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212446.fastq.frag.gz
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212469.fastq.aln
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212393.fastq.frag.gz
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/ERR6212446.fastq.aln
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/*.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_aves_single_1-3/*.res
 
-Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874103_1.fastq.res
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/*.res
 
 Traceback (most recent call last):
   File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
     df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
     return func(*args, **kwargs)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
     return _read(filepath_or_buffer, kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
     parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
     self._engine = self._make_engine(self.engine)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
     return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
-    self._reader = parsers.TextReader(self.handles.handle, **kwds)
-  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874104_1.fastq.res
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-5/SRR16874104_1.fastq.res
-
-Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874104_1.fastq.res
-
-Traceback (most recent call last):
-  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
-    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-    self._engine = self._make_engine(self.engine)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
-    self._reader = parsers.TextReader(self.handles.handle, **kwds)
-  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874105_1.fastq.res
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-5/SRR16874105_1.fastq.res
-
-Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-5/SRR16874105_1.fastq.res
-
-Traceback (most recent call last):
-  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
-    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-    self._engine = self._make_engine(self.engine)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
-    self._reader = parsers.TextReader(self.handles.handle, **kwds)
-  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3/*.res'
+CCMetagen done
+total 0
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_single_1-3’: No such file or directory
 Traceback (most recent call last):
   File "/gpfs/software/CCMetagen/CCMetagen_merge.py", line 134, in <module>
     tax_cols = all_samples[tax_cols_l]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
     indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
     self._validate_read_indexer(keyarr, indexer, axis)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1374, in _validate_read_indexer
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/core/indexing.py", line 1374, in _validate_read_indexer
     raise KeyError(f"None of [{key}] are in the [{axis_name}]")
 KeyError: "None of [Index(['Superkingdom', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family',\n       'Genus', 'Species'],\n      dtype='object')] are in the [columns]"
+Table ready
+total 153M
+-rw-rw-r-- 1 agilgomez RestGroup  27M Nov 14 19:30 SRAtab_aves_single_1-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  50M Nov 15 00:37 SRAtab_aves_single_1001-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  16M Nov 17 00:33 SRAtab_aves_single_2001-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.9M Nov 19 20:31 SRAtab_aves_single_3001-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Nov 21 03:22 SRAtab_aves_single_21001-22000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  20M Nov 23 05:05 SRAtab_aves_single_27001-28000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 8.8M Nov 23 09:49 SRAtab_aves_single_29001-30000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.6M Dec 12 15:41 SRAtab_aves_single_4001-5000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 114K Dec 13 16:06 SRAtab_austbirds_paired_1-11.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.8K Dec 13 17:43 SRAtab_shortbird_paired_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  62K Dec 13 18:00 SRAtab_austbirds_paired_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  559 Dec 14 13:05 SRAtab_shortbird_single_1-3.csv
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_aves_single_1-3’: No such file or directory
 Finishing script
-14:46:01
-Error: 12 (Cannot allocate memory)
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115_1.fastq
+15:35:16
+#
+# Total time used for DB loading: 96.74 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+spots read      : 53,222,406
+reads read      : 106,444,812
+reads written   : 53,222,406
+reads 0-length  : 53,222,406
+SRR16979235
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.24 s.
+#
+# Doing local assemblies of found templates, and output results
+spots read      : 23,181,118
+reads read      : 46,362,236
+reads written   : 46,362,236
+SRR7239368
+# Total time used for local assembly: 312.37 s.
+#
+# Closing files
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3/SRR16874101.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874101.fastq
 # Collecting k-mer scores.
-# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351115_1.fastq
-# Phred scale:	0
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3/SRR16874101.fastq
+# Phred scale:	33
+# Total time used for local assembly: 148.48 s.
+#
+# Closing files
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351114.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351114.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3/SRR15351114.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 107.35 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.29 s.
+#
+# Doing local assemblies of found templates, and output results
+spots read      : 22,260,828
+reads read      : 44,521,656
+reads written   : 44,521,656
+SRR7239369
+spots read      : 23,825,333
+reads read      : 47,650,666
+reads written   : 47,650,666
+SRR7239370
+# Total time used for local assembly: 267.06 s.
+#
+# Closing files
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3/SRR16874102.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874102.fastq
+# Collecting k-mer scores.
+spots read      : 22,576,982
+reads read      : 45,153,964
+reads written   : 45,153,964
+SRR7239371
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3/SRR16874102.fastq
+# Phred scale:	33
+spots read      : 21,477,929
+reads read      : 42,955,858
+reads written   : 42,955,858
+SRR7239372
+#
+# Total time used for DB loading: 90.50 s.
+#
+# Finding k-mer ankers
+#
+# Total time used for DB loading: 71.63 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.24 s.
+#
+# Doing local assemblies of found templates, and output results
+spots read      : 136,266,409
+reads read      : 272,532,818
+reads written   : 272,532,818
+ERR4999106
+spots read      : 22,084,302
+reads read      : 44,168,604
+reads written   : 44,168,604
+total 158G
+-rw-rw-r-- 1 agilgomez agilgomez  121 Dec 14 15:26 filtered_list.txt
+-rw-rw-r-- 1 agilgomez agilgomez 7.2G Dec 14 15:32 SRR7239362_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.2G Dec 14 15:32 SRR7239362_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.0G Dec 14 15:32 SRR7239363_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.0G Dec 14 15:32 SRR7239363_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.3G Dec 14 15:33 SRR7239364_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.3G Dec 14 15:33 SRR7239364_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 6.4G Dec 14 15:33 SRR7239365_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 6.4G Dec 14 15:33 SRR7239365_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 6.9G Dec 14 15:33 SRR7239366_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 6.9G Dec 14 15:33 SRR7239366_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.6G Dec 14 15:37 SRR7239367_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.6G Dec 14 15:37 SRR7239367_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.3G Dec 14 15:42 SRR7239368_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.3G Dec 14 15:42 SRR7239368_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.8G Dec 14 15:43 SRR7239369_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.8G Dec 14 15:43 SRR7239369_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.4G Dec 14 15:44 SRR7239370_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.4G Dec 14 15:44 SRR7239370_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.0G Dec 14 15:48 SRR7239371_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.0G Dec 14 15:48 SRR7239371_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.2G Dec 14 15:49 SRR7239372_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 7.2G Dec 14 15:49 SRR7239372_2.fastq
+Files downloaded
+File ends in _1.fastq
+r
+There is not a _2. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_austbirds_paired_1-11/SRR7239364_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_austbirds_paired_1-11/SRR7239364_1.fastq
+# Phred scale:	33
 Error: 12 (Cannot allocate memory)
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113_1.fastq.res
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351113_1.fastq.res
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.54 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 133.77 s.
+#
+# Closing files
+total 62M
+-rw-rw-r-- 1 agilgomez RestGroup    0 Dec 14 15:25 SRR15351115.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup    0 Dec 14 15:25 SRR15351115.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup  32K Dec 14 15:33 SRR15351115.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 144K Dec 14 15:33 SRR15351115.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 2.3K Dec 14 15:39 SRR15351113.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  17M Dec 14 15:39 SRR15351113.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 3.4M Dec 14 15:39 SRR15351113.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 1.2M Dec 14 15:39 SRR15351113.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 1.9K Dec 14 15:51 SRR15351114.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  17M Dec 14 15:51 SRR15351114.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 1.5M Dec 14 15:51 SRR15351114.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 484K Dec 14 15:51 SRR15351114.fastq.frag.gz
+KMA alignment done
+total 62M
+-rw-rw-r-- 1 agilgomez RestGroup    0 Dec 14 15:25 SRR15351115.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup    0 Dec 14 15:25 SRR15351115.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup  32K Dec 14 15:33 SRR15351115.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 144K Dec 14 15:33 SRR15351115.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 2.3K Dec 14 15:39 SRR15351113.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  17M Dec 14 15:39 SRR15351113.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 3.4M Dec 14 15:39 SRR15351113.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 1.2M Dec 14 15:39 SRR15351113.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup 1.9K Dec 14 15:51 SRR15351114.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  17M Dec 14 15:51 SRR15351114.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup 1.5M Dec 14 15:51 SRR15351114.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 484K Dec 14 15:51 SRR15351114.fastq.frag.gz
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_single_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/temp/SRA_shortbird_single_1-3’: No such file or directory
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115.fastq.frag.gz
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351113.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351113.fastq.res.html...
 
-Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113_1.fastq.res
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351113.fastq.res
 
-Traceback (most recent call last):
-  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
-    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-    self._engine = self._make_engine(self.engine)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
-    self._reader = parsers.TextReader(self.handles.handle, **kwds)
-  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115_1.fastq.res
-/gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351115_1.fastq.res
 
-Reading file /gpfs/projects/RestGroup/agilgomez/Projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351115_1.fastq.res
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351113.fastq.res.csv
 
-Traceback (most recent call last):
-  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
-    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
-    self._engine = self._make_engine(self.engine)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
-    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
-    self._reader = parsers.TextReader(self.handles.handle, **kwds)
-  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
-Traceback (most recent call last):
-  File "/gpfs/software/CCMetagen/CCMetagen_merge.py", line 134, in <module>
-    tax_cols = all_samples[tax_cols_l]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
-    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
-    self._validate_read_indexer(keyarr, indexer, axis)
-  File "/gpfs/home/agilgomez/.local/lib/python3.9/site-packages/pandas/core/indexing.py", line 1374, in _validate_read_indexer
-    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
-KeyError: "None of [Index(['Superkingdom', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family',\n       'Genus', 'Species'],\n      dtype='object')] are in the [columns]"
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351113.fastq.res.html
+
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351114.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351114.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351114.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3/SRR15351114.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351114.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3/SRR15351114.fastq.res.html
+
+CCMetagen done
+total 2.0K
+-rw-rw-r-- 1 agilgomez RestGroup 2.9K Dec 14 15:51 SRR15351113.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1021 Dec 14 15:51 SRR15351113.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Dec 14 15:51 SRR15351113.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup 2.8K Dec 14 15:51 SRR15351114.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.1K Dec 14 15:51 SRR15351114.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Dec 14 15:51 SRR15351114.fastq.res.html
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_single_1-3’: No such file or directory
+Done. Abundance estimates for all samples saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/03_Output_Tables/SRAtab_shortbird_single_1-3.csv
+Table ready
+total 153M
+-rw-rw-r-- 1 agilgomez RestGroup  27M Nov 14 19:30 SRAtab_aves_single_1-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  50M Nov 15 00:37 SRAtab_aves_single_1001-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  16M Nov 17 00:33 SRAtab_aves_single_2001-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.9M Nov 19 20:31 SRAtab_aves_single_3001-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Nov 21 03:22 SRAtab_aves_single_21001-22000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  20M Nov 23 05:05 SRAtab_aves_single_27001-28000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 8.8M Nov 23 09:49 SRAtab_aves_single_29001-30000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.6M Dec 12 15:41 SRAtab_aves_single_4001-5000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 114K Dec 13 16:06 SRAtab_austbirds_paired_1-11.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.8K Dec 13 17:43 SRAtab_shortbird_paired_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  62K Dec 13 18:00 SRAtab_austbirds_paired_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  559 Dec 14 15:51 SRAtab_shortbird_single_1-3.csv
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_single_1-3’: No such file or directory
 Finishing script
-14:46:47
+15:51:32
+# Total time used for local assembly: 241.67 s.
+#
+# Closing files
+total 35M
+-rw-rw-r-- 1 agilgomez RestGroup   17K Dec 14 15:37 SRR16874103.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  189K Dec 14 15:37 SRR16874103.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup   32K Dec 14 15:37 SRR16874103.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup  1.4M Dec 14 15:37 SRR16874103.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup  4.3K Dec 14 15:44 SRR16874101.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup   36K Dec 14 15:44 SRR16874101.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup  7.7K Dec 14 15:44 SRR16874101.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup   21K Dec 14 15:44 SRR16874101.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup   15K Dec 14 15:53 SRR16874102.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  155K Dec 14 15:53 SRR16874102.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup   28K Dec 14 15:53 SRR16874102.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 1016K Dec 14 15:53 SRR16874102.fastq.frag.gz
+KMA alignment done
+total 35M
+-rw-rw-r-- 1 agilgomez RestGroup   17K Dec 14 15:37 SRR16874103.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  189K Dec 14 15:37 SRR16874103.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup   32K Dec 14 15:37 SRR16874103.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup  1.4M Dec 14 15:37 SRR16874103.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup  4.3K Dec 14 15:44 SRR16874101.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup   36K Dec 14 15:44 SRR16874101.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup  7.7K Dec 14 15:44 SRR16874101.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup   21K Dec 14 15:44 SRR16874101.fastq.frag.gz
+-rw-rw-r-- 1 agilgomez RestGroup   15K Dec 14 15:53 SRR16874102.fastq.res
+-rw-rw-r-- 1 agilgomez RestGroup  155K Dec 14 15:53 SRR16874102.fastq.aln
+-rw-rw-r-- 1 agilgomez RestGroup   28K Dec 14 15:53 SRR16874102.fastq.fsa
+-rw-rw-r-- 1 agilgomez RestGroup 1016K Dec 14 15:53 SRR16874102.fastq.frag.gz
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/Databases/SRR/SRA_shortbird_paired_1-3’: No such file or directory
+rmdir: failed to remove ‘/gpfs/scratch/agilgomez/temp/SRA_shortbird_paired_1-3’: No such file or directory
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874101.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874101.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874101.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874101.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874101.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874101.fastq.res.html
+
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874102.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874102.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1907047 was translated into 2708270
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874102.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874102.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874102.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874102.fastq.res.html
+
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874103.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874103.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1907047 was translated into 2708270
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874103.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3/SRR16874103.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874103.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3/SRR16874103.fastq.res.html
+
+CCMetagen done
+total 512
+-rw-rw-r-- 1 agilgomez RestGroup 5.0K Dec 14 15:53 SRR16874101.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.2K Dec 14 15:53 SRR16874101.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 224K Dec 14 15:53 SRR16874101.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  18K Dec 14 15:53 SRR16874102.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.2K Dec 14 15:53 SRR16874102.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 232K Dec 14 15:53 SRR16874102.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  19K Dec 14 15:53 SRR16874103.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.5K Dec 14 15:53 SRR16874103.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 231K Dec 14 15:53 SRR16874103.fastq.res.html
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_shortbird_paired_1-3’: No such file or directory
+Done. Abundance estimates for all samples saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/03_Output_Tables/SRAtab_shortbird_paired_1-3.csv
+Table ready
+total 153M
+-rw-rw-r-- 1 agilgomez RestGroup  27M Nov 14 19:30 SRAtab_aves_single_1-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  50M Nov 15 00:37 SRAtab_aves_single_1001-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  16M Nov 17 00:33 SRAtab_aves_single_2001-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.9M Nov 19 20:31 SRAtab_aves_single_3001-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Nov 21 03:22 SRAtab_aves_single_21001-22000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  20M Nov 23 05:05 SRAtab_aves_single_27001-28000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 8.8M Nov 23 09:49 SRAtab_aves_single_29001-30000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.6M Dec 12 15:41 SRAtab_aves_single_4001-5000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 114K Dec 13 16:06 SRAtab_austbirds_paired_1-11.csv
+-rw-rw-r-- 1 agilgomez RestGroup  62K Dec 13 18:00 SRAtab_austbirds_paired_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  559 Dec 14 15:51 SRAtab_shortbird_single_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.8K Dec 14 15:53 SRAtab_shortbird_paired_1-3.csv
+rmdir: failed to remove ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_shortbird_paired_1-3’: No such file or directory
+Finishing script
+15:53:30
+spots read      : 48,164,828
+reads read      : 96,329,656
+reads written   : 48,164,828
+reads 0-length  : 48,164,828
+SRR16979236
+spots read      : 243,473,250
+reads read      : 486,946,500
+reads written   : 486,946,500
+ERR4999533
+spots read      : 61,936,817
+reads read      : 123,873,634
+reads written   : 123,873,634
+total 321G
+-rw-rw-r-- 1 agilgomez agilgomez  33 Dec 14 15:26 filtered_list.txt
+-rw-rw-r-- 1 agilgomez agilgomez 50G Dec 14 15:49 ERR4999102_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 50G Dec 14 15:49 ERR4999102_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 89G Dec 14 15:55 ERR4999106_2.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 89G Dec 14 15:55 ERR4999106_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 23G Dec 14 15:56 ERR4999533_1.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 23G Dec 14 15:56 ERR4999533_2.fastq
+Files downloaded
+File ends in _1.fastq
+r
+There is not a _2. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_aves_paired_1-3/ERR4999533_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_aves_paired_1-3/ERR4999533_1.fastq
+# Phred scale:	33
+Error: 12 (Cannot allocate memory)
+spots read      : 48,150,472
+reads read      : 96,300,944
+reads written   : 48,150,472
+reads 0-length  : 48,150,472
+total 29G
+-rw-rw-r-- 1 agilgomez agilgomez   36 Dec 14 15:26 filtered_list.txt
+-rw-rw-r-- 1 agilgomez agilgomez  11G Dec 14 15:37 SRR16979234.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 9.2G Dec 14 15:55 SRR16979235.fastq
+-rw-rw-r-- 1 agilgomez agilgomez 9.2G Dec 14 15:56 SRR16979236.fastq
+Files downloaded
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_mammals_single_1-3/SRR16979234.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammals_single_1-3/SRR16979234.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_mammals_single_1-3/SRR16979234.fastq
+# Phred scale:	33
+Error: 12 (Cannot allocate memory)

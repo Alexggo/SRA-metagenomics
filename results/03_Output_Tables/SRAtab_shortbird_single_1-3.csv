@@ -1,0 +1,5 @@
+SRR15351113.fastq.res,SRR15351114.fastq.res,Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Species
+5.97,5.82,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli
+0.35,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella pneumoniae
+0.48,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Aegilops,Aegilops tauschii
+0.0,0.39,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Hordeum,Hordeum vulgare
