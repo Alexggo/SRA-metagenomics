@@ -1,0 +1,535 @@
+Starting script
+02:31:42
+2950 /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/data/SraAccList_saltlake_all.txt
+rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_saltlake_all_1-10’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_saltlake_all_1-10’: No such file or directory
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+Downloading: ERR4454058
+spots read      : 21,890
+reads read      : 21,890
+reads written   : 21,890
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/ERR4454058.fastq
+It doesn't end in _1.fastq
+File is named /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/ERR4454058.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/ERR4454058.fastq
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/ERR4454058.fastq
+# Phred scale:	33
+# Collecting k-mer scores.
+#
+# Total time used for DB loading: 47.33 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.56 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 273.18 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/ERR4454058.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454058.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454058.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/ERR4454058.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454058.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454058.fastq.res.html
+
+Downloading: ERR4454065
+spots read      : 25,948
+reads read      : 25,948
+reads written   : 25,948
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/ERR4454065.fastq
+It doesn't end in _1.fastq
+File is named /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/ERR4454065.fastq
+File ends in only in .fastq, but not _2 or _1. Doing single
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/ERR4454065.fastq
+# Collecting k-mer scores.
+# Reading inputfile: 	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/ERR4454065.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 47.91 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.48 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 231.92 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/ERR4454065.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454065.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1898205 was translated into 2485925
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 218056 was translated into 159447
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454065.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/ERR4454065.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454065.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/ERR4454065.fastq.res.html
+
+Downloading: SRR15674018
+spots read      : 17,654
+reads read      : 35,308
+reads written   : 35,308
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674018_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 57.31 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.34 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 272.19 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674018_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674018_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674018_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674018_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674018_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674018_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674018_1.fastq.res.html
+
+Downloading: SRR15674019
+spots read      : 16,210
+reads read      : 32,420
+reads written   : 32,420
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674019_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674019_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 59.42 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.30 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 236.88 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674019_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674019_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674019_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674019_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674019_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674019_1.fastq.res.html
+
+Downloading: SRR15674020
+spots read      : 28,202
+reads read      : 56,404
+reads written   : 56,404
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674020_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674020_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 49.76 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.35 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 276.48 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674020_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674020_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674020_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674020_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674020_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674020_1.fastq.res.html
+
+Downloading: SRR15674021
+spots read      : 134,523
+reads read      : 269,046
+reads written   : 269,046
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674021_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674021_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 64.61 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.62 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 261.79 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674021_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674021_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674021_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674021_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674021_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674021_1.fastq.res.html
+
+Downloading: SRR15674022
+spots read      : 79,872
+reads read      : 159,744
+reads written   : 159,744
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674022_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674022_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 53.65 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.49 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 238.02 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674022_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674022_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674022_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674022_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674022_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674022_1.fastq.res.html
+
+Downloading: SRR15674023
+spots read      : 151,386
+reads read      : 302,772
+reads written   : 302,772
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674023_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674023_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 63.09 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.65 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 265.49 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674023_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674023_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674023_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674023_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674023_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674023_1.fastq.res.html
+
+Downloading: SRR15674024
+spots read      : 32,813
+reads read      : 65,626
+reads written   : 65,626
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674024_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 57.35 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.41 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 234.00 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674024_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674024_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674024_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674024_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674024_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674024_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674024_1.fastq.res.html
+
+Downloading: SRR15674025
+spots read      : 22,620
+reads read      : 45,240
+reads written   : 45,240
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674025_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 65.10 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.34 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 278.45 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_saltlake_all_1-10/SRR15674025_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674025_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674025_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 541003 was translated into 707003
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674025_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_saltlake_all_1-10/SRR15674025_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674025_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_saltlake_all_1-10/SRR15674025_1.fastq.res.html
+
+Fastq and kma steps completed
+total 4.5M
+-rw-rw-r-- 1 agilgomez RestGroup  68K Jan 21 02:34 ERR4454058.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  25K Jan 21 02:34 ERR4454058.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 245K Jan 21 02:34 ERR4454058.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  77K Jan 21 02:37 ERR4454065.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  29K Jan 21 02:37 ERR4454065.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 245K Jan 21 02:37 ERR4454065.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  29K Jan 21 02:41 SRR15674018_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 9.5K Jan 21 02:41 SRR15674018_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 236K Jan 21 02:41 SRR15674018_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  21K Jan 21 02:45 SRR15674019_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 7.0K Jan 21 02:45 SRR15674019_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 231K Jan 21 02:45 SRR15674019_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  45K Jan 21 02:49 SRR15674020_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15K Jan 21 02:49 SRR15674020_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 238K Jan 21 02:49 SRR15674020_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup 104K Jan 21 02:55 SRR15674021_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  32K Jan 21 02:55 SRR15674021_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 242K Jan 21 02:55 SRR15674021_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  56K Jan 21 03:00 SRR15674022_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  18K Jan 21 03:00 SRR15674022_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 237K Jan 21 03:00 SRR15674022_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  91K Jan 21 03:08 SRR15674023_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  29K Jan 21 03:08 SRR15674023_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 244K Jan 21 03:08 SRR15674023_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  49K Jan 21 03:13 SRR15674024_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17K Jan 21 03:13 SRR15674024_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 244K Jan 21 03:13 SRR15674024_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  30K Jan 21 03:16 SRR15674025_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup  11K Jan 21 03:16 SRR15674025_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 239K Jan 21 03:16 SRR15674025_1.fastq.res.html
+CCMetagen merge
+Done. Abundance estimates for all samples saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/03_Output_Tables/SRAtab_saltlake_all_1-10.csv
+Table ready
+total 270M
+-rw-rw-r-- 1 agilgomez RestGroup  32K Dec 16 16:09 SRAtab_caurisposIndia_all_1-13.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.8M Dec 19 10:28 SRAtab_halotolerant_all_1-249.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M Dec 19 13:44 SRAtab_wetlands_all_4001-4500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Dec 19 15:59 SRAtab_wetlands_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Dec 19 20:07 SRAtab_wetlands_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  29M Dec 19 23:43 SRAtab_wetlands_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  31M Dec 20 00:37 SRAtab_wetlands_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M Dec 20 04:49 SRAtab_wetlands_all_3501-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  23M Dec 20 08:36 SRAtab_wetlands_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  18M Dec 20 09:10 SRAtab_wetlands_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  19M Dec 20 15:52 SRAtab_halophilic_all_1-555.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Dec 20 18:16 SRAtab_shorebird_all_1-775.csv
+-rw-rw-r-- 1 agilgomez RestGroup  30M Dec 20 23:09 SRAtab_wetlands_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.2M Jan  6 17:00 SRAtab_nicobar_all_1-32.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.5M Jan 11 07:35 SRAtab_andaman_all_1-159.csv
+-rw-rw-r-- 1 agilgomez RestGroup  124 Jan 19 10:57 SRAtab_test_all_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  44K Jan 19 12:19 SRAtab_desertlake_all_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  63K Jan 20 12:44 SRAtab_sumatra_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.6K Jan 20 13:23 SRAtab_marshes_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup  64K Jan 20 16:40 SRAtab_swamp_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup  19K Jan 20 17:45 SRAtab_cactus_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup  56K Jan 21 03:16 SRAtab_saltlake_all_1-10.csv
+Delete subdir folders
+Finishing script
+03:16:54
