@@ -1,0 +1,524 @@
+Starting script
+12:44:36
+1305 /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/data/SraAccList_marshes_all.txt
+rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_marshes_all_1-10’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_marshes_all_1-10’: No such file or directory
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+Downloading: ERR4586738
+spots read      : 800,976
+reads read      : 1,601,952
+reads written   : 1,601,952
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/ERR4586738_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/ERR4586738_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 47.01 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.34 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 275.84 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/ERR4586738_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/ERR4586738_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/ERR4586738_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/ERR4586738_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/ERR4586738_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/ERR4586738_1.fastq.res.html
+
+Downloading: SRR12543074
+spots read      : 24,820
+reads read      : 49,640
+reads written   : 49,640
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543074_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543074_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 51.39 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.29 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 277.16 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543074_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543074_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543074_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543074_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543074_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543074_1.fastq.res.html
+
+Downloading: SRR12543075
+spots read      : 91,731
+reads read      : 183,462
+reads written   : 183,462
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543075_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 62.78 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.33 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 285.16 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543075_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543075_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543075_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543075_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543075_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543075_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543075_1.fastq.res.html
+
+Downloading: SRR12543076
+spots read      : 82,318
+reads read      : 164,636
+reads written   : 164,636
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543076_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 50.36 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.32 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 286.39 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543076_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543076_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543076_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543076_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543076_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543076_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543076_1.fastq.res.html
+
+Downloading: SRR12543077
+spots read      : 58,488
+reads read      : 116,976
+reads written   : 116,976
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543077_1.fastq
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543077_2.fastq
+# Phred scale:	33
+# Collecting k-mer scores.
+#
+# Total time used for DB loading: 68.97 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.31 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 239.24 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543077_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543077_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543077_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543077_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543077_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543077_1.fastq.res.html
+
+Downloading: SRR12543078
+spots read      : 48,931
+reads read      : 97,862
+reads written   : 97,862
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543078_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 52.38 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.28 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 264.67 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543078_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543078_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543078_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543078_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543078_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543078_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543078_1.fastq.res.html
+
+Downloading: SRR12543079
+spots read      : 35,238
+reads read      : 70,476
+reads written   : 70,476
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543079_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 67.48 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.27 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 269.94 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543079_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543079_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543079_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543079_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543079_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543079_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543079_1.fastq.res.html
+
+Downloading: SRR12543080
+spots read      : 8,483
+reads read      : 16,966
+reads written   : 16,966
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543080_1.fastq
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543080_2.fastq
+# Phred scale:	33
+# Collecting k-mer scores.
+#
+# Total time used for DB loading: 61.02 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.24 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 270.88 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543080_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543080_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543080_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543080_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543080_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543080_1.fastq.res.html
+
+Downloading: SRR12543081
+spots read      : 103,626
+reads read      : 207,252
+reads written   : 207,252
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543081_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543081_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 68.41 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.38 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 272.92 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543081_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543081_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543081_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543081_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543081_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543081_1.fastq.res.html
+
+Downloading: SRR12543082
+spots read      : 38,326
+reads read      : 76,652
+reads written   : 76,652
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543082_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 50.30 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	0.26 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 277.96 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_marshes_all_1-10/SRR12543082_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543082_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543082_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543082_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_marshes_all_1-10/SRR12543082_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543082_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_marshes_all_1-10/SRR12543082_1.fastq.res.html
+
+Fastq and kma steps completed
+total 4.1M
+-rw-rw-r-- 1 agilgomez RestGroup 8.2K Jan 20 12:48 ERR4586738_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 2.4K Jan 20 12:48 ERR4586738_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 224K Jan 20 12:48 ERR4586738_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  13K Jan 20 12:52 SRR12543074_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.0K Jan 20 12:52 SRR12543074_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 12:52 SRR12543074_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  23K Jan 20 12:56 SRR12543075_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.3K Jan 20 12:56 SRR12543075_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 12:56 SRR12543075_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  30K Jan 20 12:59 SRR12543076_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 7.6K Jan 20 12:59 SRR12543076_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 12:59 SRR12543076_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  32K Jan 20 13:04 SRR12543077_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 7.9K Jan 20 13:04 SRR12543077_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 13:04 SRR12543077_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  24K Jan 20 13:07 SRR12543078_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.7K Jan 20 13:07 SRR12543078_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 13:07 SRR12543078_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup 6.3K Jan 20 13:11 SRR12543079_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.6K Jan 20 13:11 SRR12543079_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 222K Jan 20 13:11 SRR12543079_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  18K Jan 20 13:15 SRR12543080_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.9K Jan 20 13:15 SRR12543080_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 13:15 SRR12543080_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  24K Jan 20 13:19 SRR12543081_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.8K Jan 20 13:19 SRR12543081_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 13:19 SRR12543081_1.fastq.res.html
+-rw-rw-r-- 1 agilgomez RestGroup  25K Jan 20 13:23 SRR12543082_1.fastq.res.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.8K Jan 20 13:23 SRR12543082_1.fastq.res.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 223K Jan 20 13:23 SRR12543082_1.fastq.res.html
+CCMetagen merge
+Done. Abundance estimates for all samples saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/03_Output_Tables/SRAtab_marshes_all_1-10.csv
+Table ready
+total 270M
+-rw-rw-r-- 1 agilgomez RestGroup  32K Dec 16 16:09 SRAtab_caurisposIndia_all_1-13.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.8M Dec 19 10:28 SRAtab_halotolerant_all_1-249.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M Dec 19 13:44 SRAtab_wetlands_all_4001-4500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Dec 19 15:59 SRAtab_wetlands_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Dec 19 20:07 SRAtab_wetlands_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  29M Dec 19 23:43 SRAtab_wetlands_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  31M Dec 20 00:37 SRAtab_wetlands_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M Dec 20 04:49 SRAtab_wetlands_all_3501-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  23M Dec 20 08:36 SRAtab_wetlands_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  18M Dec 20 09:10 SRAtab_wetlands_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  19M Dec 20 15:52 SRAtab_halophilic_all_1-555.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Dec 20 18:16 SRAtab_shorebird_all_1-775.csv
+-rw-rw-r-- 1 agilgomez RestGroup  30M Dec 20 23:09 SRAtab_wetlands_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.2M Jan  6 17:00 SRAtab_nicobar_all_1-32.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.5M Jan 11 07:35 SRAtab_andaman_all_1-159.csv
+-rw-rw-r-- 1 agilgomez RestGroup  124 Jan 19 10:57 SRAtab_test_all_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  44K Jan 19 12:19 SRAtab_desertlake_all_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  63K Jan 20 12:44 SRAtab_sumatra_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.6K Jan 20 13:23 SRAtab_marshes_all_1-10.csv
+Delete subdir folders
+Finishing script
+13:23:11
