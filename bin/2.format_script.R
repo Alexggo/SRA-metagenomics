@@ -1,8 +1,7 @@
 library(tidyverse)
 
 setwd("results/03_Output_Tables")
-taxa<-"aves"
-pattern<-paste0("SRAtab_",taxa,"*.csv")
+pattern<-paste0("*.csv")
 
 filenames <- Sys.glob(pattern)
 myfiles = lapply(filenames, read_csv)
