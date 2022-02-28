@@ -922,3 +922,22 @@ Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/result
 # Total time for sorting and outputting KMA alignment	38.03 s.
 #
 # Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1749.31 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq.res.html
+
+Downloading: SRR7756947
