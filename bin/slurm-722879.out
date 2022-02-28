@@ -1,0 +1,924 @@
+Starting script
+Mon Feb 28 08:23:14 EST 2022
+2135 /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/data/SraAccList_Penaeusvannamei_all.txt
+rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_Penaeusvannamei_all_2001-2500’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_Penaeusvannamei_all_2001-2500’: No such file or directory
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+Downloading: SRR7756927
+spots read      : 16,534,879
+reads read      : 33,069,758
+reads written   : 33,069,758
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 66.47 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	38.86 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1765.56 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1038079 was translated into 2653872
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756927_1.fastq.res.html
+
+Downloading: SRR7756928
+spots read      : 17,668,794
+reads read      : 35,337,588
+reads written   : 35,337,588
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 53.32 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	38.89 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1911.24 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756928_1.fastq.res.html
+
+Downloading: SRR7756929
+spots read      : 16,992,231
+reads read      : 33,984,462
+reads written   : 33,984,462
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 67.66 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	41.91 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1846.44 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756929_1.fastq.res.html
+
+Downloading: SRR7756930
+spots read      : 16,269,938
+reads read      : 32,539,876
+reads written   : 32,539,876
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 70.71 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	36.91 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1731.87 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1038079 was translated into 2653872
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756930_1.fastq.res.html
+
+Downloading: SRR7756931
+spots read      : 14,293,067
+reads read      : 28,586,134
+reads written   : 28,586,134
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 62.41 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	31.80 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1511.91 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756931_1.fastq.res.html
+
+Downloading: SRR7756932
+spots read      : 30,662,219
+reads read      : 61,324,438
+reads written   : 61,324,438
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 54.59 s.
+#
+# Finding k-mer ankers
+/var/spool/slurmd/job722879/slurm_script: line 122: 86771 Bus error               (core dumped) kma -ipe $r1 $r2 -o $o -t_db $nt_db -t $threads -1t1 -mem_mode -and -apm f
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756932_1.fastq.res
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/*.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/*.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/*.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/*.res'
+Downloading: SRR7756933
+spots read      : 18,386,309
+reads read      : 36,772,618
+reads written   : 36,772,618
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 52.57 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	39.89 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1879.19 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756933_1.fastq.res.html
+
+Downloading: SRR7756934
+spots read      : 17,037,336
+reads read      : 34,074,672
+reads written   : 34,074,672
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 70.06 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	36.47 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1769.73 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756934_1.fastq.res.html
+
+Downloading: SRR7756935
+spots read      : 17,205,771
+reads read      : 34,411,542
+reads written   : 34,411,542
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 52.90 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	39.84 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1759.45 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756935_1.fastq.res.html
+
+Downloading: SRR7756936
+spots read      : 16,490,275
+reads read      : 32,980,550
+reads written   : 32,980,550
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 70.20 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	34.91 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1594.48 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1038079 was translated into 2653872
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756936_1.fastq.res.html
+
+Downloading: SRR7756937
+spots read      : 16,302,968
+reads read      : 32,605,936
+reads written   : 32,605,936
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 63.01 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	36.85 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1773.33 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1038079 was translated into 2653872
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756937_1.fastq.res.html
+
+Downloading: SRR7756938
+spots read      : 17,805,224
+reads read      : 35,610,448
+reads written   : 35,610,448
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 56.06 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	37.40 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1825.11 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1038079 was translated into 2653872
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756938_1.fastq.res.html
+
+Downloading: SRR7756939
+spots read      : 16,584,936
+reads read      : 33,169,872
+reads written   : 33,169,872
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 63.46 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	41.75 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1723.86 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq.res
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 1038079 was translated into 2653872
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py:243: UserWarning: taxid 5421 was translated into 264483
+  warnings.warn("taxid %s was translated into %s" %(taxid, merged_conversion[taxid]))
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756939_1.fastq.res.html
+
+Downloading: SRR7756940
+spots read      : 15,764,107
+reads read      : 31,528,214
+reads written   : 31,528,214
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 70.08 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	35.18 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1631.55 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756940_1.fastq.res.html
+
+Downloading: SRR7756941
+spots read      : 15,864,472
+reads read      : 31,728,944
+reads written   : 31,728,944
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 61.93 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	37.76 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1702.66 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756941_1.fastq.res.html
+
+Downloading: SRR7756942
+spots read      : 17,040,818
+reads read      : 34,081,636
+reads written   : 34,081,636
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 70.18 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	40.12 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1772.90 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756942_1.fastq.res.html
+
+Downloading: SRR7756943
+spots read      : 17,553,308
+reads read      : 35,106,616
+reads written   : 35,106,616
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 52.85 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	38.44 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1866.86 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756943_1.fastq.res.html
+
+Downloading: SRR7756944
+spots read      : 16,096,012
+reads read      : 32,192,024
+reads written   : 32,192,024
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 70.74 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	38.97 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1633.03 s.
+#
+# Closing files
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_2.fastq
+File ends in _2. Doing nothing.
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756944_1.fastq.res.html
+
+Downloading: SRR7756945
+spots read      : 16,771,586
+reads read      : 33,543,172
+reads written   : 33,543,172
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_2.fastq
+It doesn't end in _1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_2.fastq
+File ends in _2. Doing nothing.
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 58.16 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	38.00 s.
+#
+# Doing local assemblies of found templates, and output results
+# Total time used for local assembly: 1638.26 s.
+#
+# Closing files
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq.res
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq.res.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq.res.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_Penaeusvannamei_all_2001-2500/SRR7756945_1.fastq.res.html
+
+Downloading: SRR7756946
+spots read      : 16,236,721
+reads read      : 32,473,442
+reads written   : 32,473,442
+KMA for: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq
+File ends in _1.fastq
+There is a _2. Doing paired
+R1 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq
+R2 is: /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_2.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_Penaeusvannamei_all_2001-2500/SRR7756946_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 68.22 s.
+#
+# Finding k-mer ankers
+#
+# Query converted
+#
+# Query ankered
+#
+# Score collection done
+#
+# Sort, output and select k-mer alignments.
+# Total time for sorting and outputting KMA alignment	38.03 s.
+#
+# Doing local assemblies of found templates, and output results
