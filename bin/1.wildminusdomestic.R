@@ -25,12 +25,13 @@ for (i in seq_along(species)){
   wildonly <- setdiff(wildallvec,domvec) |> 
     select(V1)
   
+  # Select random slice if bigger than xxx
   write.table(wildonly,file = file.path("data/domestic_wild/",paste0("SraAccList_",species[i],
                                                                      "_wildonly.txt")),row.names = FALSE,
               col.names = FALSE,quote = FALSE)
 }
 
-for (i in seq_along(file_name)){
-  write.table(files[[i]]$V1,file = file.path("data/domestic_wild/",file_name[i]),row.names = FALSE,
-              col.names = FALSE,quote = FALSE)
-}
+# for (i in seq_along(file_name)){
+#   write.table(files[[i]]$V1,file = file.path("data/domestic_wild/",file_name[i]),row.names = FALSE,
+#               col.names = FALSE,quote = FALSE)
+# }
