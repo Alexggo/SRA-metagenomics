@@ -152,3 +152,5 @@ rm ${CC_dir}/${subdir_name} -rf
 
 echo "Finishing script"
 date +"%T"
+
+
