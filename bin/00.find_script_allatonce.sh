@@ -5,7 +5,12 @@
 #SBATCH --ntasks-per-node=24
 
 #RUN WITH:
-#sbatch --export=top=3,last=3,taxa=test,seq=all --job-name=$taxa.r --output=$taxa.$top.$last.out.txt script.sh
+#sbatch --export=top=15,last=15,taxa=mammalsubset,seq=all --job-name=$taxa.r --output=$taxa.$top.$last.out.txt bin/00.find_script_allatonce.sh
+
+#top=500
+#last=500
+#taxa=mammalsubset
+#seq=all
 
 ### LOAD MODULES
 #module load shared
@@ -19,6 +24,8 @@ module load gnu-parallel/6.0
 from=$(expr $top - $last + 1)
 to=$top
 threads=40
+echo $from
+echo $to
 
 #Set path to database
 nt_db=/gpfs/software/blastDBs/nt/ncbi_nt_no_env_11jun2019
@@ -41,9 +48,15 @@ echo "Starting script"
 date
 wc -l $accession_list
 
+echo "Deleting directory" $scratch_dir/${subdir_name}
 rm $scratch_dir/${subdir_name} -rf
+echo "Deleting directory" $KMA_dir/${subdir_name}
 rm ${KMA_dir}/${subdir_name} -rf
+echo "Deleting directory" $CC_dir/${subdir_name}
+echo $CC_dir/${subdir_name}
 rm ${CC_dir}/${subdir_name} -rf
+mkdir /gpfs/scratch/agilgomez/ncbi/
+mkdir /gpfs/scratch/agilgomez/ncbi/sra/
 rm /gpfs/scratch/agilgomez/ncbi/sra/${subdir_name}
 rm /gpfs/scratch/agilgomez/temp/${subdir_name}
 
@@ -51,12 +64,15 @@ rm /gpfs/scratch/agilgomez/temp/${subdir_name}
 # One subdirectory per job.
 mkdir $scratch_dir
 mkdir ${scratch_dir}/${subdir_name}
+mkdir ${KMA_dir}
 mkdir ${KMA_dir}/${subdir_name}
+mkdir ${CC_dir}
 mkdir ${CC_dir}/${subdir_name}
 mkdir /gpfs/scratch/agilgomez/temp/${subdir_name}
 
 
 cat $accession_list | head -n $top | tail -n $last > ${scratch_dir}/${subdir_name}/filtered_list.txt
+cat ${scratch_dir}/${subdir_name}/filtered_list.txt | head
 
 less ${scratch_dir}/${subdir_name}/filtered_list.txt| while read line
 do 

@@ -1,0 +1,206 @@
+1
+3
+Starting script
+Mon Jun 13 11:28:47 EDT 2022
+353424 /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/data/SraAccList_mammalsubset_all.txt
+rm: cannot remove ‘/gpfs/scratch/agilgomez/ncbi/sra/SRA_mammalsubset_all_1-3’: No such file or directory
+rm: cannot remove ‘/gpfs/scratch/agilgomez/temp/SRA_mammalsubset_all_1-3’: No such file or directory
+mkdir: cannot create directory ‘/gpfs/scratch/agilgomez/Databases/SRR’: File exists
+mkdir: cannot create directory ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res’: File exists
+mkdir: cannot create directory ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen’: File exists
+Downloading: ERR9811746
+2022-06-13T15:28:48 fasterq-dump.2.11.0 err: name not found while resolving query within virtual file system module - failed to resolve accession 'ERR9811746' - no data ( 404 )
+2022-06-13T15:28:48 fasterq-dump.2.11.0 err: name not found while resolving query within virtual file system module - failed to resolve accession 'ERR9811746' - no data ( 404 )
+2022-06-13T15:28:48 fasterq-dump.2.11.0 err: invalid accession 'ERR9811746'
+fasterq-dump quit with error code 3
+find: ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res’: No such file or directory
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_mammalsubset_all_1-3/*.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res'
+Downloading: ERR9811747
+2022-06-13T15:28:53 fasterq-dump.2.11.0 err: name not found while resolving query within virtual file system module - failed to resolve accession 'ERR9811747' - no data ( 404 )
+2022-06-13T15:28:53 fasterq-dump.2.11.0 err: name not found while resolving query within virtual file system module - failed to resolve accession 'ERR9811747' - no data ( 404 )
+2022-06-13T15:28:53 fasterq-dump.2.11.0 err: invalid accession 'ERR9811747'
+fasterq-dump quit with error code 3
+find: ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res’: No such file or directory
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_mammalsubset_all_1-3/*.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res'
+Downloading: ERR9811748
+2022-06-13T15:28:55 fasterq-dump.2.11.0 err: name not found while resolving query within virtual file system module - failed to resolve accession 'ERR9811748' - no data ( 404 )
+2022-06-13T15:28:56 fasterq-dump.2.11.0 err: name not found while resolving query within virtual file system module - failed to resolve accession 'ERR9811748' - no data ( 404 )
+2022-06-13T15:28:56 fasterq-dump.2.11.0 err: invalid accession 'ERR9811748'
+fasterq-dump quit with error code 3
+find: ‘/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res’: No such file or directory
+CCMetagen for: /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res
+/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/02_CCMetagen/SRA_mammalsubset_all_1-3/*.res
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res
+
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen.py", line 178, in <module>
+    df = pd.read_csv(f, sep='\t', index_col=0, encoding='latin1')
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/projects/RestGroup/agilgomez/projects/ch4-c_auris/results/01_KMA_res/SRA_mammalsubset_all_1-3/*.res'
+Fastq and kma steps completed
+total 0
+CCMetagen merge
+Traceback (most recent call last):
+  File "/gpfs/software/CCMetagen/CCMetagen_merge.py", line 134, in <module>
+    tax_cols = all_samples[tax_cols_l]
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/gpfs/software/Anaconda/envs/kma/lib/python3.9/site-packages/pandas/core/indexing.py", line 1374, in _validate_read_indexer
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Superkingdom', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family',\n       'Genus', 'Species'],\n      dtype='object')] are in the [columns]"
+Table ready
+total 928M
+-rw-rw-r-- 1 agilgomez RestGroup  32K Dec 16 16:09 SRAtab_caurisposIndia_all_1-13.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.8M Dec 19 10:28 SRAtab_halotolerant_all_1-249.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M Dec 19 13:44 SRAtab_wetlands_all_4001-4500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Dec 19 15:59 SRAtab_wetlands_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Dec 19 20:07 SRAtab_wetlands_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  29M Dec 19 23:43 SRAtab_wetlands_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  31M Dec 20 00:37 SRAtab_wetlands_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M Dec 20 04:49 SRAtab_wetlands_all_3501-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  23M Dec 20 08:36 SRAtab_wetlands_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  18M Dec 20 09:10 SRAtab_wetlands_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  19M Dec 20 15:52 SRAtab_halophilic_all_1-555.csv
+-rw-rw-r-- 1 agilgomez RestGroup  30M Dec 20 23:09 SRAtab_wetlands_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.2M Jan  6 17:00 SRAtab_nicobar_all_1-32.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.5M Jan 11 07:35 SRAtab_andaman_all_1-159.csv
+-rw-rw-r-- 1 agilgomez RestGroup  124 Jan 19 10:57 SRAtab_test_all_1-3.csv
+-rw-rw-r-- 1 agilgomez RestGroup  63K Jan 20 12:44 SRAtab_sumatra_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup  64K Jan 20 16:40 SRAtab_swamp_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup  56K Jan 21 03:16 SRAtab_saltlake_all_1-10.csv
+-rw-rw-r-- 1 agilgomez RestGroup 122K Jan 22 10:45 SRAtab_burma_all_1-88.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.8M Jan 22 22:31 SRAtab_bucal_all_1-192.csv
+-rw-rw-r-- 1 agilgomez RestGroup  24M Jan 24 12:11 SRAtab_desertlake_all_1-626.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Feb  2 00:08 SRAtab_shorebird_all_1-775.csv
+-rw-rw-r-- 1 agilgomez RestGroup  16M Feb  3 08:02 SRAtab_marshes_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17M Feb  4 08:52 SRAtab_marshes_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.0M Feb  4 13:37 SRAtab_cactus_all_1-207.csv
+-rw-rw-r-- 1 agilgomez RestGroup  30M Feb  4 14:08 SRAtab_indiafish_all_1-644.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.0M Feb  4 14:24 SRAtab_Penaeusmonodon_all_1-230.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17M Feb  4 15:26 SRAtab_marshes_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.3M Feb  9 02:02 SRAtab_indiafish_all_645-759.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.8M Feb 10 02:07 SRAtab_cactus_all_208-340.csv
+-rw-rw-r-- 1 agilgomez RestGroup  14M Feb 13 01:20 SRAtab_swamp_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  18M Feb 14 10:25 SRAtab_swamp_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  27M Feb 15 14:23 SRAtab_swamp_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  21M Feb 18 09:46 SRAtab_swamp_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 8.5M Mar  3 07:20 SRAtab_sumatra_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  12M Mar  6 23:28 SRAtab_Penaeusvannamei_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Mar  7 15:35 SRAtab_sumatra_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.9M Mar  8 03:06 SRAtab_sumatra_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 2.7M Mar  8 12:10 SRAtab_sumatra_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.1M Mar  9 18:54 SRAtab_sumatra_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.7M Mar 10 01:14 SRAtab_feather_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Mar 13 14:17 SRAtab_feather_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17M Mar 15 01:27 SRAtab_feather_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  16M Mar 17 02:38 SRAtab_feather_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.8M Mar 17 10:30 SRAtab_feather_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.8M Mar 23 12:08 SRAtab_cloacae_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.7M Mar 23 16:08 SRAtab_cloacae_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.3M Mar 23 18:33 SRAtab_cloacae_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.7M Apr  5 16:28 SRAtab_cloacae_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.5M Apr  5 16:58 SRAtab_cloacae_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 2.4M Apr  5 20:01 SRAtab_cloacae_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.8M Apr 11 04:47 SRAtab_cloacae_all_4001-4500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 1.9M Apr 11 12:22 SRAtab_cloacae_all_3501-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 2.1M Apr 11 16:01 SRAtab_cloacae_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  13M Apr 14 07:42 SRAtab_axilla_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M Apr 15 08:13 SRAtab_axilla_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  25M Apr 15 12:22 SRAtab_axilla_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  22M Apr 16 21:12 SRAtab_axilla_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  13M Apr 17 10:30 SRAtab_axilla_all_3501-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17M Apr 17 12:19 SRAtab_axilla_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  28M Apr 17 12:31 SRAtab_axilla_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  13M Apr 17 13:04 SRAtab_axilla_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  13M Apr 17 13:39 SRAtab_axilla_all_4001-4500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.3M May  5 15:29 SRAtab_penis_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.1M May  5 18:13 SRAtab_penis_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 2.7M May  8 01:04 SRAtab_penis_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  71K May  9 14:27 SRAtab_faeces_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 4.9M May  9 15:52 SRAtab_saltlake_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.2M May 10 02:00 SRAtab_faeces_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  19M May 10 02:10 SRAtab_groin_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 5.7M May 10 03:00 SRAtab_faeces_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 6.5M May 10 04:06 SRAtab_faeces_all_501-1000.csv
+-rw-rw-r-- 1 agilgomez RestGroup 7.8M May 10 05:54 SRAtab_faeces_all_3501-4000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  13M May 10 08:43 SRAtab_groin_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 8.7M May 11 00:34 SRAtab_saltlake_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 3.7M May 11 01:56 SRAtab_faeces_all_4001-4500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  12M May 11 02:53 SRAtab_groin_all_2501-3000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  26M May 11 11:01 SRAtab_groin_all_1001-1500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  15M May 11 14:13 SRAtab_faeces_all_1501-2000.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17M May 11 17:14 SRAtab_venezuela_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 9.8M May 12 00:05 SRAtab_faeces_all_3001-3500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  13M May 13 04:56 SRAtab_saltlake_all_2001-2500.csv
+-rw-rw-r-- 1 agilgomez RestGroup 2.6M Jun  8 22:42 taxa_id.txt
+-rw-rw-r-- 1 agilgomez RestGroup 719K Jun 13 11:02 SRAtab_mammalsubset_all_1-500.csv
+-rw-rw-r-- 1 agilgomez RestGroup  17K Jun 13 11:05 SRAtab_mammalsubset_all_501-1000.csv
+Delete subdir folders
+Finishing script
+11:28:57

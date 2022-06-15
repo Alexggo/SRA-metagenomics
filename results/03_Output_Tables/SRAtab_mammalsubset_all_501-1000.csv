@@ -1,0 +1,166 @@
+SRR16119889_1.fastq.res,SRR16119890_1.fastq.res,SRR19428232.fastq.res,SRR19428233.fastq.res,SRR19428234.fastq.res,SRR19428235.fastq.res,Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Species
+2.38,4.46,0.0,0.0,0.0,0.0,Bacteria,unk_k,Chlamydiae,Chlamydiia,Parachlamydiales,Waddliaceae,Waddlia,Waddlia chondrophila
+0.0,0.0,85.34,65.19,50.7,47.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli
+0.0,4.98,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Actinopteri,Salmoniformes,Salmonidae,Salmo,
+2.41,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Apterygiformes,Apterygidae,Apteryx,Apteryx mantelli
+0.0,1.99,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Galliformes,Phasianidae,,
+3.33,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Galliformes,Phasianidae,Rollulus,Rollulus rouloul
+8.36,8.22,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Passeriformes,Corvidae,Aphelocoma,Aphelocoma californica
+2.18,13.07,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Passeriformes,Corvidae,Aphelocoma,Aphelocoma woodhouseii
+0.0,24.13,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Passeriformes,Corvidae,Aphelocoma,
+0.0,8.07,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Passeriformes,Corvidae,,
+3.98,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Piciformes,Picidae,,
+0.0,7.28,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Piciformes,Picidae,Sphyrapicus,
+4.29,4.28,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Procellariiformes,unk_f,Oceanites,Oceanites oceanicus
+2.66,3.54,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Lepidosauria,Sphenodontia,Sphenodontidae,Sphenodon,Sphenodon punctatus
+0.0,3.54,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Lepidosauria,Squamata,Phrynosomatidae,,
+0.0,2.34,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Lepidosauria,Squamata,Scincidae,Lobulia,Lobulia elegans
+19.369999999999997,48.56,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Balaenopteridae,Balaenoptera,Balaenoptera bonaerensis
+0.0,6.81,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Bovidae,,
+8.61,22.8,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Bovidae,Ovis,Ovis aries
+5.81,9.96,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Cervidae,Odocoileus,Odocoileus virginianus
+0.0,2.35,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Delphinidae,,
+2.68,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Phocoenidae,Neophocaena,
+0.0,5.45,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Suidae,,
+4.64,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Suidae,Sus,
+3.73,6.31,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Suidae,Sus,Sus scrofa
+10.43,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Canidae,Canis,Canis lupus
+0.0,8.65,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Canidae,Canis,
+6.19,10.7,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Canidae,,
+5.58,7.62,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Felidae,,
+2.45,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Felidae,Panthera,
+3.91,12.82,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Felidae,Panthera,Panthera pardus
+0.0,2.47,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Felidae,Puma,Puma concolor
+6.29,7.78,37.85,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,,,
+0.0,3.92,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Odobenidae,,
+6.68,15.19,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Odobenidae,Odobenus,
+5.62,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Otariidae,,
+0.0,2.14,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Phocidae,Leptonychotes,Leptonychotes weddellii
+0.0,2.97,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Ursidae,Ailuropoda,Ailuropoda melanoleuca
+0.0,0.0,43.73,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Ursidae,Ailuropoda,
+12.54,17.15,0.0,0.0,126.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Ursidae,,
+0.0,4.01,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Carnivora,Ursidae,Ursus,
+9.22,31.2,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Chiroptera,Molossidae,Chaerephon,Chaerephon plicatus
+0.0,6.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Chiroptera,Vespertilionidae,,
+24.5,22.939999999999998,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Dermoptera,Cynocephalidae,Galeopterus,Galeopterus variegatus
+0.0,24.75,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Dermoptera,Cynocephalidae,Galeopterus,
+3.59,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Dermoptera,Cynocephalidae,,
+0.0,3.61,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Dermoptera,,,
+3.81,2.99,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Eulipotyphla,Soricidae,Crocidura,Crocidura beatus
+0.0,13.629999999999999,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Eulipotyphla,Soricidae,Crocidura,Crocidura grayi
+0.0,2.13,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Eulipotyphla,Soricidae,Crocidura,Crocidura mindorus
+6.24,18.44,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Eulipotyphla,Soricidae,Crocidura,Crocidura orientalis
+3.77,3.65,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Eulipotyphla,Soricidae,,
+13.77,12.96,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,,,,
+2.07,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Perissodactyla,Equidae,Equus,Equus przewalskii
+0.0,1.92,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Perissodactyla,Equidae,Equus,
+4.15,5.02,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Perissodactyla,,,
+0.0,5.12,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Perissodactyla,Rhinocerotidae,,
+8.12,5.05,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Pholidota,Manidae,,
+0.0,6.06,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Aotidae,Aotus,Aotus lemurinus
+0.0,9.93,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Aotidae,Aotus,Aotus nancymaae
+0.0,11.18,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Aotidae,Aotus,
+17.72,43.68,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Aotidae,,
+42.39,30.019999999999996,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Atelidae,Ateles,Ateles geoffroyi
+14.09,23.790000000000003,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Atelidae,Ateles,
+3.07,3.08,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Atelidae,Lagothrix,Lagothrix lagotricha
+3.88,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Atelidae,Lagothrix,
+11.25,78.41,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Atelidae,,
+4.32,13.219999999999999,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cebidae,Callithrix,Callithrix jacchus
+48.36,152.72,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cebidae,,
+2.18,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cebidae,Saimiri,
+0.0,4.46,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cebidae,Saimiri,Saimiri boliviensis
+134.16,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercocebus,Cercocebus agilis
+1728.68,3100.48,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercocebus,Cercocebus atys
+1333.47,3116.69,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercocebus,
+0.0,27.14,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus albogularis
+23.62,24.13,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus cephus
+9.44,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercopithecus,Cercopithecus diana
+10.559999999999999,20.64,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Cercopithecus,
+12.6,23.740000000000002,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus aethiops
+956.41,1536.13,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Chlorocebus,Chlorocebus sabaeus
+1328.76,2949.61,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Chlorocebus,
+217.41,386.92,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Colobus,Colobus angolensis
+439.14,882.53,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Colobus,
+13.67,7.33,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Erythrocebus,Erythrocebus patas
+3.22,5.4,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Lophocebus,Lophocebus albigena
+10.229999999999999,28.119999999999997,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca arctoides
+54.470000000000006,129.2,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca assamensis
+46.480000000000004,43.59,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca cyclopis
+30406.3,56886.17,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fascicularis
+787.0,1512.71,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca fuscata
+27.23,137.97,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca hecki
+62.870000000000005,75.68,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca maura
+71915.73,131494.91,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca mulatta
+10269.07,20253.51,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca nemestrina
+41.5,40.56,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca nigra
+0.0,2.86,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca radiata
+0.0,26.060000000000002,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca silenus
+84.55,146.70999999999998,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca sp.
+7.74,6.13,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca speciosa
+2.42,3.37,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca sylvanus
+4.43,16.09,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca thibetana
+31.529999999999998,40.01,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Macaca tonkeana
+49377.31,93855.01,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,
+2935.28,5719.44,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Mandrillus,Mandrillus leucophaeus
+2.96,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Mandrillus,Mandrillus sphinx
+2569.3,4873.9,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Mandrillus,
+10.16,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Miopithecus,
+81771.56,162421.63,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,,
+2153.3,4740.9,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Papio,
+2139.69,4057.29,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Papio,Papio anubis
+40.91,60.62,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Papio,Papio cynocephalus
+814.5799999999999,1631.54,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Papio,Papio hamadryas
+9.04,81.64,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Papio,Papio papio
+0.0,9.82,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Papio,Papio ursinus
+357.93,889.24,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Piliocolobus,
+784.37,713.4,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Piliocolobus,Piliocolobus tephrosceles
+15.9,41.239999999999995,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Pygathrix,
+5.87,16.86,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Pygathrix,Pygathrix nemaeus
+1254.89,2368.89,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Rhinopithecus,
+815.1,1162.48,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Rhinopithecus,Rhinopithecus bieti
+289.49,500.71000000000004,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Rhinopithecus,Rhinopithecus roxellana
+1929.98,4382.35,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Theropithecus,
+2830.75,4944.13,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Theropithecus,Theropithecus gelada
+2.57,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cercopithecidae,Trachypithecus,Trachypithecus delacouri
+4.43,17.77,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Cheirogaleidae,,
+3.45,5.26,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Galagidae,Otolemur,Otolemur garnettii
+25.21,57.97,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla
+86.78,204.93,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Gorilla,
+1558.98,2324.72,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Homo,Homo sapiens
+5451.57,10105.37,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Homo,
+13004.97,32582.44,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,,
+171.64,294.31,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Pan,
+4.46,4.82,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Pan,Pan paniscus
+4.27,27.51,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Pan,Pan troglodytes
+28.799999999999997,66.98,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Pongo,
+14.96,20.39,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Pongo,Pongo abelii
+41.620000000000005,52.61,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Pongo,Pongo pygmaeus
+3.61,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hylobatidae,Hoolock,
+8.23,9.26,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hylobatidae,Hylobates,
+198.6,475.3,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hylobatidae,,
+35.87,98.1,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hylobatidae,Nomascus,
+7.58,1.99,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hylobatidae,Nomascus,Nomascus leucogenys
+4.61,14.829999999999998,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Indriidae,,
+6.24,14.08,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Indriidae,Propithecus,Propithecus coquereli
+2577.23,5361.54,8.09,3.79,11.75,12.95,Eukaryota,Metazoa,Chordata,Mammalia,Primates,,,
+0.0,1.67,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Pitheciidae,Chiropotes,Chiropotes satanas
+6.1,14.92,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Pitheciidae,,
+4.59,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Tarsiidae,Carlito,Carlito syrichta
+0.0,8.22,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Tarsiidae,Carlito,
+2.22,11.399999999999999,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Tarsiidae,,
+5.81,15.48,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,unk_f,,
+0.0,2.32,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Proboscidea,Elephantidae,,
+0.0,3.77,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Cricetidae,Microtus,Microtus ochrogaster
+2.39,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Cricetidae,,
+2.57,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,Mus,Mus musculus
+14.5,33.29,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,Mus,
+0.0,6.779999999999999,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Rodentia,Muridae,,
+4.65,4.22,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Scandentia,Tupaiidae,Tupaia,Tupaia chinensis
+4.83,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Sirenia,Dugongidae,Dugong,Dugong dugon
+0.0,2.73,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Sirenia,Trichechidae,,
+51.86,131.14000000000001,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,,,,,
+8.87,13.16,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,unk_c,Crocodylia,Crocodylidae,Crocodylus,Crocodylus porosus
+0.0,6.48,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,unk_c,Testudines,Pelomedusidae,,
+5.61,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,unk_c,Testudines,Pelomedusidae,Pelomedusa,Pelomedusa subrufa
+5.36,7.36,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malvales,Malvaceae,,
