@@ -1,0 +1,226 @@
+SRR13094247_1.fastq.res,SRR13094248_1.fastq.res,SRR13094249_1.fastq.res,SRR13094250_1.fastq.res,SRR13303958_1.fastq.res,SRR13303959_1.fastq.res,SRR13303960_1.fastq.res,SRR13303961_1.fastq.res,SRR13303962_1.fastq.res,SRR13303963_1.fastq.res,SRR13303964_1.fastq.res,SRR13303965_1.fastq.res,SRR13303966_1.fastq.res,Superkingdom,Kingdom,Phylum,Class,Order,Family,Genus,Species
+0.0,0.0,3.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Candidatus Bathyarchaeota,unk_c,unk_o,unk_f,unk_g,Candidatus Bathyarchaeota archaeon
+8.89,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Crenarchaeota,unk_c,unk_o,unk_f,,
+0.0,4.23,3.14,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Crenarchaeota,unk_c,unk_o,unk_f,unk_g,
+6.59,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Crenarchaeota,unk_c,unk_o,unk_f,unk_g,uncultured crenarchaeote
+12.62,0.0,2.48,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,Methanomicrobia,Methanomicrobiales,Methanomicrobiaceae,Methanoculleus,
+48.32,13.71,8.51,3.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,Methanomicrobia,Methanosarcinales,Methanotrichaceae,Methanothrix,
+0.0,0.0,0.0,3.52,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,Methanomicrobia,Methanosarcinales,Methanotrichaceae,,
+0.0,0.0,4.17,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,unk_c,unk_o,unk_f,,
+27.75,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,unk_c,unk_o,unk_f,unk_g,
+4.72,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,unk_c,unk_o,unk_f,unk_g,methanogenic archaeon F1/B-2
+0.0,0.0,7.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,Euryarchaeota,unk_c,unk_o,unk_f,unk_g,uncultured methanogenic archaeon
+32.28,10.629999999999999,5.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,unk_p,unk_c,unk_o,unk_f,,
+72.88,9.39,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,unk_p,unk_c,unk_o,unk_f,unk_g,
+139.79,11.65,10.25,4.49,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Archaea,unk_k,unk_p,unk_c,unk_o,unk_f,unk_g,uncultured archaeon
+0.0,0.0,0.0,4.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Actinobacteria,Actinomycetia,Streptomycetales,Streptomycetaceae,,
+2.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Bacteroidetes,Flavobacteriia,Flavobacteriales,Weeksellaceae,,
+2.67,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Chlorobi,Chlorobia,Chlorobiales,Chlorobiaceae,Chlorobaculum,Chlorobaculum sp. JAGS133
+4.25,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Chlorobi,Chlorobia,Chlorobiales,Chlorobiaceae,Chlorobaculum,
+5.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Chloroflexi,unk_c,unk_o,,,
+0.0,0.0,0.0,0.0,0.0,24.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Cyanobacteria,unk_c,Chroococcidiopsidales,Chroococcidiopsidaceae,,
+0.0,6.37,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Cyanobacteria,unk_c,unk_o,unk_f,unk_g,
+6.85,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Firmicutes,Bacilli,Bacillales,Bacillaceae,,
+0.0,0.0,0.0,3.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus faecalis
+0.0,79.47,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,
+0.0,0.0,3.93,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Fusobacteria,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Propionigenium,uncultured Propionigenium sp.
+3.84,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Alphaproteobacteria,Hyphomicrobiales,Bradyrhizobiaceae,Nitrobacter,uncultured Nitrobacter sp.
+5.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,unk_g,uncultured Comamonadaceae bacterium
+0.0,2.99,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Betaproteobacteria,unk_o,unk_f,unk_g,uncultured beta proteobacterium
+7.5600000000000005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,,
+6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Oceanimonas,
+0.0,5.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Oceanimonas,Oceanimonas sp. GK1
+17.66,5.05,3.62,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Alteromonadales,Shewanellaceae,,
+0.0,15.18,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,
+50.44,0.0,13.44,5.95,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,Shewanella sp. ANA-3
+2.72,0.0,0.0,693.58,0.0,0.0,0.0,0.0,0.0,0.0,1126.03,40.089999999999996,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.38,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia fergusonii
+0.0,0.0,0.0,3.87,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia sp. UIWRF1139
+0.0,0.0,0.0,40.84,0.0,0.0,0.0,0.0,0.0,0.0,34.86,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,
+0.0,0.0,0.0,26.75,0.0,0.0,0.0,0.0,0.0,0.0,12.95,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,uncultured Escherichia sp.
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.02,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella aerogenes
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.29,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella oxytoca
+0.0,0.0,0.0,15.620000000000001,0.0,0.0,0.0,0.0,0.0,0.0,140.29,30.34,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella pneumoniae
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.77,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella quasipneumoniae
+2.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella variicola
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.56,2.94,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.61,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella,
+0.0,0.0,0.0,10.41,0.0,0.0,0.0,0.0,0.0,0.0,30.21,3.27,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella,Salmonella enterica
+0.0,0.0,0.0,4.14,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella,
+0.0,0.0,0.0,7.69,0.0,0.0,0.0,0.0,0.0,0.0,5.49,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella,Shigella boydii
+0.0,0.0,0.0,9.22,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella,Shigella dysenteriae
+0.0,0.0,0.0,7.03,0.0,0.0,0.0,0.0,0.0,0.0,5.8,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella,Shigella flexneri
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.6,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella,Shigella sonnei
+0.0,0.0,0.0,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Shigella,uncultured Shigella sp.
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.34,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Erwiniaceae,Pantoea,Pantoea agglomerans
+0.0,0.0,0.0,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pectobacteriaceae,Pectobacterium,Pectobacterium wasabiae
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.21,0.0,19.3,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,Acinetobacter baumannii
+4.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,Acinetobacter junii
+2.74,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Moraxellales,Moraxellaceae,Moraxella,Moraxella osloensis
+9.81,6.0,17.36,3.36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,,
+63.31,0.0,3.63,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,
+91.73,31.92,14.56,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.41,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas aeruginosa
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.13,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas marginalis
+6.76,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas mendocina
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.45,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. P-20
+0.0,0.0,3.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured Pseudomonas sp.
+2.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,,,
+167.04,33.78,76.03,4.73,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,,
+0.0,0.0,0.0,5.78,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Salinivibrio,Salinivibrio sp.
+259.78,85.44,8.17,10.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,
+3.25,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio campbellii
+2.35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio cholerae
+0.0,0.0,3.28,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio diabolicus
+2.52,0.0,0.0,11.14,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio fluvialis
+36.03,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio natriegens
+0.0,9.79,11.48,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio parahaemolyticus
+7.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio porteresiae
+2.59,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio sp.
+5.89,0.0,0.0,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,uncultured Vibrio sp.
+3.08,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,
+0.0,0.0,0.0,3.54,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas sp. C21O
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.89,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas,Xanthomonas citri
+5.02,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bacteria,unk_k,Proteobacteria,Gammaproteobacteria,unk_o,unk_f,unk_g,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.71,0.0,0.0,Bacteria,unk_k,unk_p,unk_c,unk_o,unk_f,unk_g,mixed culture bacterium AM_gF1DD01_13
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.52,0.0,0.0,Bacteria,unk_k,unk_p,unk_c,unk_o,unk_f,unk_g,mixed culture bacterium GE_gF1DD01_01
+0.0,0.0,0.0,4.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,,
+0.0,0.0,0.0,0.0,7.55,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,Alternaria cf. molesta M312
+0.0,0.0,0.0,0.0,8.89,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,Alternaria solani
+0.0,0.0,0.0,0.0,2.86,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,Bipolaris shoemakeri
+0.0,0.0,0.0,0.0,19.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,Bipolaris sp.
+0.0,0.0,0.0,0.0,3.16,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,Bipolaris victoriae
+0.0,0.0,0.0,0.0,5.59,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Bipolaris,
+0.0,0.0,0.0,0.0,8.88,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,Curvularia lunata
+0.0,0.0,0.0,0.0,16.31,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Curvularia,Curvularia sp. SZMC 13080
+0.0,0.0,0.0,0.0,2.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Stemphylium,
+0.0,0.0,0.0,0.0,2.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,unk_g,Pleosporaceae sp. LM156
+0.0,0.0,0.0,0.0,9.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Dothideomycetes,unk_o,unk_f,unk_g,Dothideomycetes sp. genotype 746 JMUR-2016
+0.0,2.61,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Aspergillus oryzae
+0.0,0.0,0.0,6.56,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,,
+0.0,2.31,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Lecanoromycetes,Peltigerales,Pannariaceae,,
+0.0,1.65,0.0,3.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Leotiomycetes,Helotiales,Sclerotiniaceae,,
+0.0,0.0,0.0,0.0,4.23,0.0,0.0,0.0,0.0,3.11,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Danielozyma,
+11.5,0.0,8.44,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,16.96,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Hyphopichia,
+171.1,323.62,134.43,73.28,77.80999999999999,9.12,38.2,12.76,15.71,92.75,96.92999999999999,220.67000000000002,117.66,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.3,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Priceomyces,
+5.07,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.9,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,unk_g,
+42187.11,54872.03,39543.11,53251.83,11828.13,10791.47,9243.9,14209.55,4153.63,15507.57,22255.48,31844.55,14499.2,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Clavispora,
+938069.11,1317554.39,925291.34,1191581.85,295209.3,260885.61,218935.82,342595.01,89650.46,358106.67,551146.03,776402.29,335718.55,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Clavispora,[Candida] auris
+0.0,0.0,0.0,3.78,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Clavispora,[Candida] bromeliacearum
+0.0,0.0,0.0,0.0,5.39,0.0,0.0,0.0,0.0,0.0,0.0,4.71,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Clavispora,[Candida] haemuloni
+0.0,36.23,15.91,36.71,11.54,0.0,0.0,16.14,2.63,0.0,25.71,34.57,14.77,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,Metschnikowia,
+10046.86,14138.74,12310.69,12890.02,2912.18,2860.54,2459.9,3499.56,949.6,3860.41,6175.37,8371.43,3655.06,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Metschnikowiaceae,,
+92.14999999999999,120.72,53.46,131.83,0.0,97.4,27.75,66.41,1.95,10.71,54.29,101.47000000000001,19.95,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,,,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.66,5.59,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,Barnettozyma,
+55.79,103.39999999999999,47.78,28.68,26.92,8.2,9.07,0.0,0.0,25.33,40.9,52.55,22.46,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Phaffomycetaceae,,
+72.97,93.24,0.0,0.0,16.86,0.0,0.0,26.05,0.0,0.0,39.81,0.0,28.58,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,,
+0.0,0.0,60.41,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.59,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Tetrapisispora,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.78,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,unk_f,Candida,Candida sp. NRRL Y-27702
+343.91999999999996,496.53999999999996,4.64,300.22,36.6,87.77,31.99,111.39,0.0,78.94,120.32,234.51,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,unk_f,Candida,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.99,1.94,0.0,0.0,0.0,2.61,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,unk_f,Kuraishia,Kuraishia capsulata
+0.0,0.0,0.0,0.0,0.0,3.13,0.0,0.0,0.0,5.33,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,unk_f,Kuraishia,
+46.26,151.31,380.08,53.980000000000004,83.74,0.0,57.24,13.34,33.96,70.89,126.15,27.23,86.93,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,unk_f,,
+13.14,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Saccharomycetes,Saccharomycetales,unk_f,unk_g,
+0.0,0.0,0.0,5.81,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Ascomycota,Sordariomycetes,Hypocreales,Clavicipitaceae,Metarhizium,
+0.0,0.0,0.0,0.0,0.0,5.55,2.32,0.0,0.0,0.0,6.6,0.0,0.0,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Agaricales,,,
+0.0,0.0,0.0,12.17,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,Corticiales,Punctulariaceae,Punctularia,
+0.0,6.74,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,unk_o,unk_f,,
+4.06,0.0,0.0,2.68,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Basidiomycota,Agaricomycetes,unk_o,unk_f,unk_g,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.62,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Filobasidiales,Filobasidiaceae,Filobasidium,Filobasidium floriforme
+0.0,25.59,0.0,0.0,5.48,0.0,0.0,0.0,0.0,0.0,7.67,0.0,3.3,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Cryptococcaceae,,
+71.73,118.5,75.96,26.54,40.56,12.44,10.93,22.47,5.28,39.08,62.57,75.33,29.21,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,Tremellales,Tremellaceae,,
+0.0,2.24,0.0,4.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,unk_o,unk_f,,
+3.39,0.0,0.0,0.0,0.0,0.0,0.0,1.48,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,Basidiomycota,Tremellomycetes,unk_o,unk_f,unk_g,
+0.0,0.0,4.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,unk_p,,,,,
+0.0,0.0,6.42,6.58,0.0,0.0,0.0,1.79,0.0,0.0,0.0,0.0,4.55,Eukaryota,Fungi,unk_p,unk_c,unk_o,,,
+0.0,5.52,0.0,22.96,3.83,2.59,2.15,0.0,0.0,6.14,9.79,10.42,0.0,Eukaryota,Fungi,unk_p,unk_c,unk_o,unk_f,,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.34,0.0,0.0,0.0,0.0,4.25,Eukaryota,Fungi,unk_p,unk_c,unk_o,unk_f,unk_g,
+0.0,0.0,0.0,2.05,23.51,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Fungi,unk_p,unk_c,unk_o,unk_f,unk_g,uncultured fungus
+67.71,44.6,14.54,14.14,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Blattodea,Ectobiidae,Anaplectoidea,Anaplectoidea varia
+0.0,0.0,0.0,5.43,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Buprestidae,Agrilus,
+0.0,2.28,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Coleoptera,Curculionidae,,
+0.0,3.59,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Australimyzidae,Australimyza,Australimyza salicorniae
+2.82,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Coelopidae,Coelopella,Coelopella curvipes
+0.0,7.62,2.65,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Lonchaeidae,Lonchaea,Lonchaea sp. HYH-2002
+8.21,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Lonchaeidae,Lonchaea,
+10.42,3.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,,,
+25.71,19.46,7.83,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sepsidae,Meropliosepsis,Meropliosepsis sexsetosa
+0.0,0.0,0.0,5.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Sepsidae,Meropliosepsis,
+0.0,0.0,0.0,5.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Anastrepha,Anastrepha serpentina
+81.16,55.71,25.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Anastrepha,
+31.93,18.59,8.83,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera carambolae
+41.44,11.870000000000001,10.100000000000001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera caryeae
+46.02,35.14,15.09,12.21,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera curvipennis
+9759.03,5216.05,2593.15,408.35,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera dorsalis
+226.07,35.129999999999995,58.400000000000006,12.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera kandiensis
+33.77,20.86,4.43,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera latifrons
+10.6,4.46,6.69,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera musae
+55.25,39.77,24.47,4.29,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera sp. K2
+1449.77,785.43,489.69,94.12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera sp. M2
+33.48,59.3,16.73,9.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera sp. OG2
+20.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera trivialis
+6.46,9.9,9.34,776.31,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera tryoni
+28.46,23.78,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,Bactrocera tryoni complex sp. PHEL-12
+1981.04,1203.94,519.21,150.12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Bactrocera,
+10.55,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Campiglossa,Campiglossa pygmaea
+0.0,4.24,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Campiglossa,
+246.28000000000003,180.57,63.41,45.96,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Ceratitis,Ceratitis capitata
+0.0,8.72,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Itosigo,Itosigo bellus
+0.0,0.0,0.0,2.85,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Itosigo,
+627.1899999999999,328.65999999999997,161.16,160.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,,
+0.0,0.0,0.0,8.07,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Zeugodacus,
+134.89,105.09,35.57,23.43,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Zeugodacus,Zeugodacus caudatus
+48.12,37.83,14.55,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Diptera,Tephritidae,Zeugodacus,Zeugodacus depressus
+4.09,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Apidae,Eufriesea,
+0.0,0.0,0.0,2.78,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Braconidae,Microplitis,
+0.0,2215.31,0.0,2306.36,0.0,605.34,497.57,0.0,269.4,617.98,968.4,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Formicidae,Dinoponera,
+1766.38,0.0,1718.58,0.0,389.72,0.0,0.0,704.28,0.0,0.0,0.0,1339.99,648.03,Eukaryota,Metazoa,Arthropoda,Insecta,Hymenoptera,Formicidae,,
+3.33,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Neuroptera,Berothidae,Berotha,Berotha sp. EH-2004
+0.0,3.34,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Neuroptera,Berothidae,,
+1.2,0.0,0.0,7.23,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Orthoptera,Gryllidae,Gryllus,Gryllus bimaculatus
+0.0,0.0,0.0,4.62,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Orthoptera,Gryllidae,Gryllus,
+0.0,0.0,3.69,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Orthoptera,Gryllidae,,
+0.0,0.0,0.0,2.74,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Arthropoda,Insecta,Orthoptera,,,
+13.64,7.72,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Amphibia,Anura,Pipidae,Xenopus,
+1.86,0.0,0.0,22.53,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Apterygiformes,Apterygidae,Apteryx,Apteryx mantelli
+1.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Aves,Passeriformes,Estrildidae,Vidua,
+2.76,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Artiodactyla,Cervidae,Odocoileus,Odocoileus virginianus
+1.95,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,,,,
+5.06,1.8,0.0,6.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Gorilla,Gorilla gorilla
+155.01,91.58,36.05,38.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Homo,Homo sapiens
+92.14,47.58,15.4,21.87,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,Homo,
+59.19,23.11,22.73,12.790000000000001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,Hominidae,,
+21.779999999999998,1.07,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,Mammalia,Primates,,,
+0.0,0.0,1.74,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Chordata,,,,,
+0.0,0.0,0.0,3.56,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Mollusca,Gastropoda,unk_o,Planorbidae,,
+0.0,0.0,0.0,2.76,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Nematoda,Chromadorea,Rhabditida,Rhabditidae,Caenorhabditis,Caenorhabditis elegans
+5.46,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Metazoa,Nematoda,unk_c,unk_o,unk_f,unk_g,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.25,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Boechera,Boechera divaricarpa
+0.0,4.03,0.0,4.76,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Boechera,
+0.0,7.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Brassica,Brassica juncea
+0.0,17.67,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,Brassica,
+0.0,6.45,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Brassicales,Brassicaceae,,
+29.99,1.83,3.14,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Arachis,Arachis duranensis
+96.22,25.51,17.599999999999998,5.07,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Arachis,Arachis hypogaea
+41.43,6.84,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Arachis,Arachis ipaensis
+43.99,0.0,3.84,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,Arachis,
+22.98,8.82,2.63,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,Fabaceae,,
+2.24,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Fabales,,,
+0.0,0.0,0.0,0.0,0.0,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Malpighiales,Salicaceae,Salix,
+0.0,0.0,2.58,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Oryza,Oryza sativa
+0.0,0.0,0.0,8.809999999999999,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Poales,Poaceae,Zea,Zea mays
+0.0,0.0,2.95,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Solanales,Solanaceae,Nicotiana,Nicotiana tabacum
+0.0,49.18,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Solanales,Solanaceae,Solanum,
+5.69,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,Viridiplantae,Streptophyta,Magnoliopsida,Solanales,Solanaceae,Solanum,Solanum pennellii
+4.98,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,,,
+3.02,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Bacillariophyta,Coscinodiscophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira,
+6.66,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Bacillariophyta,unk_c,unk_o,unk_f,,
+0.0,2.41,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Bacillariophyta,unk_c,unk_o,unk_f,unk_g,uncultured diatom
+7.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Ciliophora,Oligohymenophorea,Pleuronematida,Pleuronematidae,Pleuronema,Pleuronema puytoraci
+0.0,0.0,3.64,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Ciliophora,unk_c,unk_o,,,
+0.0,0.0,0.0,39.72,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Eukaryota,unk_k,Evosea,unk_c,Mastigamoebida,Entamoebidae,Entamoeba,Entamoeba dispar
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.05,0.0,0.0,0.0,Eukaryota,unk_k,unk_p,Bigyra,Opalinata,Blastocystidae,,
+0.0,0.0,0.0,6.65,0.0,0.0,0.0,0.0,0.0,0.0,4.23,0.0,0.0,Viruses,Heunggongvirae,Uroviricota,Caudoviricetes,Caudovirales,Siphoviridae,Lambdavirus,Escherichia virus Lambda
+0.0,0.0,0.0,24.1,0.0,0.0,0.0,0.0,0.0,0.0,9.71,0.0,0.0,Viruses,Heunggongvirae,Uroviricota,Caudoviricetes,Caudovirales,Siphoviridae,Lambdavirus,Phage 21
+2.16,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Viruses,Heunggongvirae,Uroviricota,Caudoviricetes,Caudovirales,Siphoviridae,,
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.91,0.0,0.0,Viruses,Heunggongvirae,Uroviricota,Caudoviricetes,Caudovirales,Siphoviridae,unk_g,
