@@ -134,3 +134,30 @@ Processing paired-end files for DRR333154
 # Collecting k-mer scores.
 # Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_df1_all_1-10/DRR333154_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_df1_all_1-10/DRR333154_2.fastq
 # Phred scale:	33
+Writing /gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/02_CCMetagen/SRA_df1_all_1-100/SRA_df1_all_1-100.html...
+
+Reading file /gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/01_KMA_res/SRA_df1_all_1-100/DRR333154.fastq.res
+
+
+csv file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/02_CCMetagen/SRA_df1_all_1-100/SRA_df1_all_1-100.csv
+
+krona file saved as /gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/02_CCMetagen/SRA_df1_all_1-100/SRA_df1_all_1-100.html
+
+Fastq, kma and CCMetagen steps completed
+total 2.4M
+-rw-rw-r-- 1 agilgomez RestGroup 1.7M Mar 10 15:05 SRA_df1_all_1-100.csv
+-rw-rw-r-- 1 agilgomez RestGroup 553K Mar 10 15:05 SRA_df1_all_1-100.tsv
+-rw-rw-r-- 1 agilgomez RestGroup 236K Mar 10 15:05 SRA_df1_all_1-100.html
+Processing accession: DRR333154
+2023-03-10T20:05:41 fasterq-dump.2.11.0 err: fasterq-dump.c fastdump_csra() checking ouput-file '/gpfs/scratch/agilgomez/Databases/SRR/SRA_df1_all_1-100/DRR333154.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump quit with error code 3
+/gpfs/scratch/agilgomez/Databases/SRR/SRA_df1_all_1-100/DRR333154_1.fastq
+Output directory: /gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/01_KMA_res/SRA_df1_all_1-100/DRR333154.fastq
+Processing paired-end files for DRR333154
+# Collecting k-mer scores.
+# Reading inputfile:	/gpfs/scratch/agilgomez/Databases/SRR/SRA_df1_all_1-100/DRR333154_1.fastq /gpfs/scratch/agilgomez/Databases/SRR/SRA_df1_all_1-100/DRR333154_2.fastq
+# Phred scale:	33
+#
+# Total time used for DB loading: 40.68 s.
+#
+# Finding k-mer ankers
