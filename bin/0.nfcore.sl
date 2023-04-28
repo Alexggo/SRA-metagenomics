@@ -1,27 +1,28 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+#SBATCH --job-name=rnaseq
+#SBATCH --output=rnaseq.log
+#SBATCH --ntasks-per-node=96
 #SBATCH --nodes=1
-#SBATCH --partition=extended-40core
-#SBATCH --time=7-00:00:00
-#SBATCH --ntasks-per-node=40
+#SBATCH --time=8:00:00
+#SBATCH -p long-96core
 
-#RUN WITH:
-
+# Run with
 #top=500
 #last=500
 #taxa=bombus
 #seq=all
 # sbatch --export=top=15,last=15,taxa=bombus,seq=all --job-name=$taxa.r --output=$taxa.$top.$last.out.txt bin/00.runCCmetagen.sh
 
-### LOAD MODULES
-# KMA contains python, pandas and sra-tools.
-module load kma/1.3.24
-module load krona/2.7.1
-module load CCMetagen/1.1.5
-module load gnu-parallel/6.0
+export SINGULARITY_CACHEDIR=/gpfs/scratch/$USER/singularity
+export NXF_SINGULARITY_CACHEDIR=/gpfs/scratch/$USER/singularity
+
+module load openjdk/latest
+module load nextflow/latest
 
 from=$(expr $top - $last + 1)
 to=$top
-threads=40
+threads=96
 echo Range: $from-$to
 
 #Set path to database
@@ -36,6 +37,7 @@ scratch_dir=/gpfs/scratch/agilgomez/Databases/SRR
 KMA_dir=/gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/01_KMA_res
 CC_dir=/gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/02_CCMetagen
 Table_dir=/gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/03_Output_Tables/bees
+nf_dir=/gpfs/projects/RestGroup/agilgomez/projects/ch4-metagenomics/results/04_nf
 temp_dir=/gpfs/scratch/agilgomez/temp
 output_table="SRAtab_${taxa}_${seq}_${from}-${to}"
 subdir_name="SRA_${taxa}_${seq}_${from}-${to}"
@@ -53,6 +55,8 @@ rm ${KMA_dir}/${subdir_name} -rf
 echo "Deleting directory for job" $CC_dir/${subdir_name}
 echo ${CC_dir}/${subdir_name}
 rm ${CC_dir}/${subdir_name} -rf
+rm ${nf_dir}/${subdir_name} -rf
+
 
 mkdir /gpfs/scratch/agilgomez/ncbi/
 mkdir /gpfs/scratch/agilgomez/ncbi/sra/
@@ -65,10 +69,31 @@ mkdir ${scratch_dir}
 mkdir ${scratch_dir}/${subdir_name}
 mkdir ${KMA_dir}/${subdir_name}
 mkdir ${CC_dir}/${subdir_name}
+mkdir ${nf_dir}/${subdir_name}
 mkdir ${temp_dir}/${subdir_name}
 
 head $accession_list -n $top | tail -n $last > ${scratch_dir}/${subdir_name}/filtered_list.txt
 head ${scratch_dir}/${subdir_name}/filtered_list.txt
+
+nextflow run nf-core/fetchngs \
+    --input ${scratch_dir}/${subdir_name}/filtered_list.txt --outdir ${scratch_dir}/${subdir_name} \
+    -profile seawulf
+
+nextflow run nf-core/taxprofiler \
+    --input ${scratch_dir}/${subdir_name}/samplesheet/samplesheet.csv \
+    --databases database.csv \
+    --outdir ${nf_dir}/${subdir_name} \
+    --run_krona \
+    -profile seawulf \
+    --krona_taxonomy_directory ${nf_dir}/${subdir_name}/krona_t
+
+
+### LOAD MODULES
+# KMA contains python, pandas and sra-tools.
+module load kma/1.3.24
+module load krona/2.7.1
+module load CCMetagen/1.1.5
+module load gnu-parallel/6.0
 
 while read accession;do
     echo "Processing accession: ${accession}"
