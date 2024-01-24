@@ -1,3 +1,2 @@
 tool,db_name,db_params,db_path
-kraken2,db2,--quick,/gpfs/software/blastDBs/nt/compress_ncbi_nt/ncbi_nt
-
+kraken2,standard_with_ciliates,,/gpfs/software/blastDBs/nt/kraken2db/standard_with_ciliates
